@@ -6,3 +6,9 @@ nav{height: 70px;
 	margin: 0px;
 	background-color:#FACF00}
 h2,h3,p,li{font-family: montserrat}
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
