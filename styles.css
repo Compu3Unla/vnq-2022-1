@@ -27,7 +27,7 @@ body {
 		height: 60em;
 		width: 100%;
 }
-form{	margin: 30%;
+form{	margin-left: 30%;
 		padding-top:2em;
 		display: flex;
 		flex-direction: column;
