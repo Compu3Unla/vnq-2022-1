@@ -1,3 +1,4 @@
 @charset "utf-8";
 /* CSS Document */
-h2,p,li{font-family: montserrat}
+body{background-color: #8B368C}
+h2,h3,p,li{font-family: montserrat}
