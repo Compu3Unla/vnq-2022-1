@@ -1,14 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
-body{background-color: #8B368C}
 nav{height: 70px;
 	width:100%;
 	margin: 0px;
 	background-color:#FACF00}
+h2,h3,p,li{font-family: montserrat;}
+
 h2,h3,p,li{font-family: montserrat}
 body {
+	  background-color: #8B368C;
     margin-left: 0px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
 }
+.card {height: 2em;
+		width: 2em;
+		background-color:#FFE9F6; }
