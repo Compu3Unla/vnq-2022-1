@@ -1,20 +1,54 @@
 @charset "utf-8";
 /* CSS Document */
-nav{height: 70px;
-	width:100%;
-	margin: 0px;
-	background-color:#FACF00}
-h2,h3,p,li{font-family: montserrat;}
-
-h2,h3,p,li{font-family: montserrat}
-body {
-	  background-color: #8B368C;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+nav{
+		height: 70px;
+		width:100%;
+		margin: 0px;
+		background-color:#FACF00
 }
-.card {height: 23em;
+h2,h3,p,li{
+		font-family: montserrat;
+}
+
+body {
+		background-color: #8B368C;
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+}
+.card {
+		height: 23em;
 		width: 23em;
 		background-color:#FFE9F6; 
 		border-radius: 56px;}
+.formulario{
+		background-color:#FACF00;
+		height: 60em;
+		width: 100%;
+}
+form{	margin: 30%;
+		padding-top:2em;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+		height: 46em;
+		width: 37em;
+		background-color:#8B368C; 
+		border-radius: 56px;
+}
+input{
+		margin: 1em;
+		border-radius: 56px;
+		height: 4em;
+		width:33em;
+		background-color:#FFE9F6;
+
+}
+#Mensaje {
+		height:20em;
+}
+#enviar{
+		width: 12em;
+}
