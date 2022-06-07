@@ -27,9 +27,28 @@ body {
 		height: 60em;
 		width: 100%;
 }
-form{
+form{	margin: 30%;
+		padding-top:2em;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
 		height: 46em;
 		width: 37em;
 		background-color:#8B368C; 
 		border-radius: 56px;
+}
+input{
+		margin: 1em;
+		border-radius: 56px;
+		height: 4em;
+		width:33em;
+		background-color:#FFE9F6;
+
+}
+#Mensaje {
+		height:20em;
+}
+#enviar{
+		width: 12em;
 }
