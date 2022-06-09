@@ -10,16 +10,29 @@ nav{
 h2,h3,p,li{
 		font-family: montserrat;
 }
-li{
-		list-style: none;
+li a{	list-style: none;
+		text-decoration: none;
+		color:  #232323;
+		font-weight: 700;
+		font-size: 1.3em;
+		padding: 5em;
 }
-
+nav ul li {
+		display: inline;		
+	}
 body {
 		background-color: #8B368C;
 		margin-left: 0px;
 		margin-top: 0px;
 		margin-right: 0px;
 		margin-bottom: 0px;
+}
+.ong{	margin-left: 9em;
+		margin-right: 9em;
+		font-size:2em;
+		text-align: center;
+		color:#FFE9F6;
+		font-weight: 600;
 }
 .card {
 		height: 22em;
@@ -48,14 +61,14 @@ form{
 	align-content: center;
 }
 .form{	
-		margin-top: 10em;
+		margin-top: 5em;
 		margin-left: 30%;
 		padding-top:2em;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		height: 46em;
+		height: 50em;
 		width: 37em;
 		background-color:#8B368C; 
 		border-radius: 4em;
@@ -82,7 +95,7 @@ input{
 }
 #enviar{
 		margin-left: 10em;
-	margin-bottom: 4em;
+		margin-bottom: 4em;
 		width: 12em;
 }
 .ayuda{
@@ -138,11 +151,11 @@ input{
 		margin-right: 10em;
 }
 .title{
-	direction: flex;
-	text-align: center;
-	font-size: 1.8em;
-	font-weight: 500;
-	color: #FACF00;
+		direction: flex;
+		text-align: center;
+		font-size: 1.8em;
+		font-weight: 500;
+		color: #FACF00;
 	
 }
 footer{
@@ -157,4 +170,7 @@ footer{
 .footer2 {
 		position: absolute;
 		right: 1.5em;
+}
+.required {
+		color:#FACF00
 }
