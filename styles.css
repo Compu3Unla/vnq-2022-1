@@ -21,7 +21,7 @@ body {
 		margin-bottom: 0px;
 }
 .card {
-		height: 23em;
+		height: 22em;
 		width: 23em;
 		background-color:#FFE9F6; 
 		border-radius: 56px;
@@ -29,6 +29,8 @@ body {
 		flex-direction: column;
 		justify-content: center;
 		text-align: center;
+		align-items: center;
+		margin: 1em;
 }
 .formulario{
 		background-color:#FACF00;
@@ -86,16 +88,29 @@ input{
 }
 .info {
 		font-size: 1.5em;
+		font-weight: 500;
 }
 .leerbox{
 		width: 10em;
 		height: 3em;
 		background-color:#8A378B;
 		border-radius: 5em;
+		display:flex;
+		justify-content: center;
+		align-items: center;
 }
-.leer{ 	text-decoration: none;
+.leer{ 	
+		text-decoration: none;
 		font-size: 1.2em;
-		font-color:#FACF00;
+		color:#FACF00;
 		padding: 1em;
-		
+		display: flex;
+		align-content: center;
+}
+.cards {
+	display: flex;
+	justify-content: space-around;
+	margin-left: 10em;
+	margin-right: 10em;
+	
 }
