@@ -18,8 +18,8 @@ li a{	list-style: none;
 		padding: 5em;
 }
 nav ul li {
-		display: inline;		
-	}
+		display: inline;	
+}
 body {
 		background-color: #8B368C;
 		margin-left: 0px;
@@ -27,7 +27,8 @@ body {
 		margin-right: 0px;
 		margin-bottom: 0px;
 }
-.ong{	margin-left: 9em;
+.ong{
+		margin-left: 9em;
 		margin-right: 9em;
 		font-size:2em;
 		text-align: center;
@@ -176,10 +177,12 @@ footer{
 }
 .title2{
 		direction: flex;
+		margin-left: 9em;
+		margin-right: 9em;
+		font-size:2em;
 		text-align: center;
-		font-size: 1.8em;
-		font-weight: 500;
-		color: #000000;
+		color:#232323;
+		font-weight: 600;
 }
 .fondo{
 		background-color: #FFE9F6;
@@ -187,4 +190,16 @@ footer{
 		margin-top: 0px;
 		margin-right: 0px;
 		margin-bottom: 0px;
+}
+.card2{
+		height: 22em;
+		width: 23em;
+		background-color:#FFE9F6; 
+		border-radius: 56px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		margin: 1em;
 }
