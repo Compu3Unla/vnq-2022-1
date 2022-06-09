@@ -1,7 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-nav{
-		height: 70px;
+nav{	height: 70px;
 		width:100%;
 		margin-top: 0px;
 		background-color:#FACF00;
@@ -11,15 +10,17 @@ nav{
 h2,h3,p,li{
 		font-family: montserrat;
 }
+a{color: #FFE9F6}
 li a{	list-style: none;
 		text-decoration: none;
 		color:  #232323;
 		font-weight: 700;
-		font-size: 1.3em;
-		padding: 5em;
+		font-size: 1.1em;
+		padding: 3em;
 }
 nav ul li {
-		display: inline;		
+		display: inline;
+		float: right;
 	}
 body {
 		background-color: #8B368C;
@@ -29,15 +30,15 @@ body {
 		margin-bottom: 0px;
 
 }
-.ong{	margin-left: 9em;
-		margin-right: 9em;
-		font-size:2em;
+.ong{	margin-left: 16em;
+		margin-right: 16em;
+		font-size:1.5em;
 		text-align: center;
 		color:#FFE9F6;
 		font-weight: 600;
 }
 .card {
-		height: 22em;
+		height: 21em;
 		width: 23em;
 		background-color:#FFE9F6; 
 		border-radius: 56px;
@@ -90,15 +91,17 @@ input{
 		width:30em;
 		background-color:#FFE9F6;
 		font-size: 1em;
-		font-weight: 400;
+		font-weight: 500;
 		color: #232323;
-		
+		border: none;
+		padding-left: 2em;
 
 }
 #Mensaje {
 		height:20em;
 }
 #enviar{
+		padding: 0;
 		margin-left: 10em;
 		margin-bottom: 4em;
 		width: 12em;
