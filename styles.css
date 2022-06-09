@@ -36,24 +36,39 @@ body {
 		background-color:#FACF00;
 		height: 60em;
 		width: 100%;
+		justify-content: space-around;
+		align-content: center;
+		display: flex;
+		flex-direction: column;
 }
-form{	margin-left: 30%;
+.form{	
+		margin-top: 10em;
+		margin-left: 30%;
 		padding-top:2em;
 		display: flex;
 		flex-direction: column;
-		align-content: center;
+		justify-content: center;
 		align-items: center;
-		height: 36em;
+		height: 46em;
 		width: 37em;
 		background-color:#8B368C; 
 		border-radius: 4em;
+	
+}
+.contactate {
+		text-align: center;
+		color: #FFE9F6;
 }
 input{
 		margin: 1em;
 		border-radius: 56px;
-		height: 4em;
-		width:33em;
+		height: 3.5em;
+		width:30em;
 		background-color:#FFE9F6;
+		font-size: 1em;
+		font-weight: 400;
+		color: #232323;
+		
 
 }
 #Mensaje {
@@ -89,6 +104,7 @@ input{
 .info {
 		font-size: 1.5em;
 		font-weight: 500;
+		color: #232323;
 }
 .leerbox{
 		width: 10em;
@@ -108,9 +124,29 @@ input{
 		align-content: center;
 }
 .cards {
-	display: flex;
-	justify-content: space-around;
-	margin-left: 10em;
-	margin-right: 10em;
+		display: flex;
+		justify-content: space-around;
+		margin-left: 10em;
+		margin-right: 10em;
+}
+.title{
+	direction: flex;
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: 500;
+	color: #FACF00;
 	
+}
+footer{
+		color: #FFE9F6;
+		margin-left: 2em;
+		margin-right: 2em;
+}
+.footer {
+		display: flex;
+		justify-content:space-between;
+}
+.footer2 {
+		position: absolute;
+		right: 1.5em;
 }
