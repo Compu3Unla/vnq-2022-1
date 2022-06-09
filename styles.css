@@ -3,8 +3,9 @@
 nav{
 		height: 70px;
 		width:100%;
-		margin: 0px;
+		margin-top: 0px;
 		background-color:#FACF00;
+		padding-top:1em;
 }
 
 h2,h3,p,li{
@@ -26,6 +27,7 @@ body {
 		margin-top: 0px;
 		margin-right: 0px;
 		margin-bottom: 0px;
+
 }
 .ong{	margin-left: 9em;
 		margin-right: 9em;
@@ -45,6 +47,7 @@ body {
 		text-align: center;
 		align-items: center;
 		margin: 1em;
+		margin-bottom: 5em;
 }
 .formulario{
 		background-color:#FACF00;
@@ -62,6 +65,7 @@ form{
 }
 .form{	
 		margin-top: 5em;
+		margin-bottom: 5em;
 		margin-left: 30%;
 		padding-top:2em;
 		display: flex;
@@ -69,9 +73,10 @@ form{
 		justify-content: center;
 		align-items: center;
 		height: 50em;
-		width: 37em;
+		width: 40em;
 		background-color:#8B368C; 
 		border-radius: 4em;
+	
 	
 }
 .contactate {
@@ -79,7 +84,7 @@ form{
 		color: #FFE9F6;
 }
 input{
-		margin: 1em;
+		margin: 0.5em;
 		border-radius: 56px;
 		height: 3.5em;
 		width:30em;
