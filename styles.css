@@ -191,15 +191,3 @@ footer{
 		margin-right: 0px;
 		margin-bottom: 0px;
 }
-.card2{
-		height: 22em;
-		width: 23em;
-		background-color:#FFE9F6; 
-		border-radius: 56px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		text-align: center;
-		align-items: center;
-		margin: 1em;
-}
