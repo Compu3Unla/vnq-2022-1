@@ -5,7 +5,11 @@ nav{	height: 70px;
 		margin-top: 0px;
 		background-color:#FACF00;
 		padding-top:1em;
+		
 }
+.logo { display: flex;
+		float: left;
+		margin-left: 3em;}
 
 h2,h3,p,li{
 		font-family: montserrat;
@@ -22,7 +26,7 @@ li a{	list-style: none;
 }
 nav ul li {
 		display: inline;
-		float: right;
+		float: right
 	}
 
 body {
