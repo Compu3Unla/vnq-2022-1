@@ -22,6 +22,7 @@ nav ul li {
 		display: inline;
 		float: right;
 	}
+
 body {
 		background-color: #8B368C;
 		margin-left: 0px;
@@ -30,6 +31,7 @@ body {
 		margin-bottom: 0px;
 
 }
+
 .ong{	margin-left: 16em;
 		margin-right: 16em;
 		font-size:1.5em;
@@ -182,3 +184,33 @@ footer{
 .required {
 		color:#FACF00
 }
+
+.title2{
+		direction: flex;
+		margin-left: 9em;
+		margin-right: 9em;
+		font-size:2em;
+		text-align: center;
+		color:#232323;
+		font-weight: 600;
+}
+.fondo{
+		background-color: #FFE9F6;
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+}
+.card2{
+		height: 12.167em;
+		width: 13.723em;
+		background-color:#8B368C; 
+		border-radius: 56px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		margin: 1em;
+}
+
