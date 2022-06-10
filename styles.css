@@ -1,42 +1,46 @@
 @charset "utf-8";
 /* CSS Document */
-nav{
-		height: 70px;
+nav{	height: 70px;
 		width:100%;
-		margin: 0px;
+		margin-top: 0px;
 		background-color:#FACF00;
+		padding-top:1em;
 }
 
 h2,h3,p,li{
 		font-family: montserrat;
 }
+a{color: #FFE9F6}
 li a{	list-style: none;
 		text-decoration: none;
 		color:  #232323;
 		font-weight: 700;
-		font-size: 1.3em;
-		padding: 5em;
+		font-size: 1.1em;
+		padding: 3em;
 }
 nav ul li {
-		display: inline;	
-}
+		display: inline;
+		float: right;
+	}
+
 body {
 		background-color: #8B368C;
 		margin-left: 0px;
 		margin-top: 0px;
 		margin-right: 0px;
 		margin-bottom: 0px;
+
 }
-.ong{
-		margin-left: 9em;
-		margin-right: 9em;
-		font-size:2em;
+
+.ong{	margin-left: 16em;
+		margin-right: 16em;
+		font-size:1.5em;
 		text-align: center;
 		color:#FFE9F6;
 		font-weight: 600;
 }
 .card {
-		height: 22em;
+		height: 21em;
 		width: 23em;
 		background-color:#FFE9F6; 
 		border-radius: 56px;
@@ -46,6 +50,7 @@ body {
 		text-align: center;
 		align-items: center;
 		margin: 1em;
+		margin-bottom: 5em;
 }
 .formulario{
 		background-color:#FACF00;
@@ -63,6 +68,7 @@ form{
 }
 .form{	
 		margin-top: 5em;
+		margin-bottom: 5em;
 		margin-left: 30%;
 		padding-top:2em;
 		display: flex;
@@ -70,9 +76,10 @@ form{
 		justify-content: center;
 		align-items: center;
 		height: 50em;
-		width: 37em;
+		width: 40em;
 		background-color:#8B368C; 
 		border-radius: 4em;
+	
 	
 }
 .contactate {
@@ -80,21 +87,23 @@ form{
 		color: #FFE9F6;
 }
 input{
-		margin: 1em;
+		margin: 0.5em;
 		border-radius: 56px;
 		height: 3.5em;
 		width:30em;
 		background-color:#FFE9F6;
 		font-size: 1em;
-		font-weight: 400;
+		font-weight: 500;
 		color: #232323;
-		
+		border: none;
+		padding-left: 2em;
 
 }
 #Mensaje {
 		height:20em;
 }
 #enviar{
+		padding: 0;
 		margin-left: 10em;
 		margin-bottom: 4em;
 		width: 12em;
@@ -175,6 +184,7 @@ footer{
 .required {
 		color:#FACF00
 }
+
 .title2{
 		direction: flex;
 		margin-left: 9em;
@@ -203,3 +213,4 @@ footer{
 		align-items: center;
 		margin: 1em;
 }
+
