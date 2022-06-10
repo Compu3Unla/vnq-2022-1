@@ -207,10 +207,10 @@ footer{
 }
 
 .card2{
-		height: 12.167em;
-		width: 13.723em;
+		height: 16em;
+		width: 40em;
 		background-color:#8B368C; 
-		border-radius: 56px;
+		border-radius: 50px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -226,3 +226,6 @@ footer{
 }
 .imagenmain {width: 100%;
 			height:100%;}
+.imagengaleria {
+			border-radius: 42px;
+}
