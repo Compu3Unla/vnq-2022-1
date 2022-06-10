@@ -10,7 +10,9 @@ nav{	height: 70px;
 h2,h3,p,li{
 		font-family: montserrat;
 }
-a{color: #FFE9F6}
+a{
+		color: #FFE9F6
+}
 li a{	list-style: none;
 		text-decoration: none;
 		color:  #232323;
@@ -168,8 +170,12 @@ input{
 }
 footer{
 		color: #FFE9F6;
-		margin-left: 2em;
-		margin-right: 2em;
+		background-color:#8B368C;
+		margin:0;
+		padding-top: 1.5em;
+		padding-left:3em;
+		padding-right:3em;
+		height:8em;
 }
 .footer {
 		display: flex;
@@ -177,39 +183,39 @@ footer{
 }
 .footer2 {
 		position: absolute;
-		right: 1.5em;
+		right: 2.5em;
 }
 .required {
 		color:#FACF00
 }
+.fondoclaro {
+	background-color: #FFE9F6; 
+}
 
 .title2{
 		direction: flex;
+		margin:2em;
 		margin-left: 9em;
 		margin-right: 9em;
-		font-size:2em;
+		font-size:1.7em;
+
 		text-align: center;
 		color:#232323;
 		font-weight: 600;
 }
-.fondo{
-		background-color: #FFE9F6;
-		margin-left: 0px;
-		margin-top: 0px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-}
+
 .card2{
-		height: 12.167em;
-		width: 13.723em;
+		height: 18em;
+		width: 50em;
 		background-color:#8B368C; 
-		border-radius: 56px;
+		border-radius: 50px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		text-align: center;
 		align-items: center;
 		margin: 1em;
+		margin-bottom: 3em;
 }
 .textura{
 		width: 100%;
@@ -217,3 +223,17 @@ footer{
 		background-image: url("imagenes/fondoindex.png");
 		background-repeat: repeat; 
 }
+
+.info2, .ubicacion{
+		color:#FACF00;
+		text-decoration: none;
+		
+}
+.imagenmain {
+			width: 100%;
+			height:100%;
+}
+.imagengaleria {
+			border-radius: 42px;
+}
+.fondo{ height:40em;}
