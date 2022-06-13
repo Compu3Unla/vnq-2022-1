@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>VNQ </title>
-<link href="https: //fonts.googleapis.com/css2? familia= Abierto+Sans:peso@400;500;700 & display=swap" rel="stylesheet">"
+<link href="https: //fonts.googleapis.com/css2? familia= Abierto+Sans:peso@400;500;700 & display=swap" rel="stylesheet">
+	<link tyle="text/css" rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -16,43 +17,61 @@
 		</nav>
 	</header>
 	
-	<main>
-		<section>
-			<h1> La fuerza de las mujeres es el futuro de todas</h1>
+<main>
+		<section class="frase">
+			<img class="imagenmain" src="imagenes/imagenmain.png" alt="Marcha mujeres" height="700" width="1920">
 		</section>
+	
 		<section>
-			<p>Somos una ONG que busca informar, educar, conectar a mujeres en situación de violencia de género o familiares de personas en esta posición.</p>
-		</section>
-		<section>
-			<h2>Encontrá información sobre</h2>
-			<article>
-				<h3> ¿Qué es la violencia de genero?</h3>
-				<p><a href="que-es-la-violencia.html"> Leer más </a></p>
+		  <p class="ong">Somos una ONG que busca informar, educar, conectar a mujeres en situación de violencia de género o familiares de personas en esta posición.</p>
+        </section>
+	<section class="ayuda">
+		<h2 class="botonfixed">Pedir ayuda</h2>
+	</section>
+	<section>
+		<h2 class= "title">Encontrá información sobre</h2>
+		<div class="cards">
+			<article class="card">
+				<h3 class="info"> ¿Qué es la violencia de género?</h3>
+				<p class="leerbox"><a class="leer" href="que-es-la-violencia.html"> Leer más </a></p>
 			</article>
-			<article>
-				<h3>Tipos de violencia</h3>
-				<p>  <a href="tipos-de-violencia.html"> Leer más </a> </p>
+			<article class="card">
+				<h3 class="info">Tipos de violencia</h3>
+				<p class="leerbox">  <a class="leer"  href="tipos-de-violencia.html"> Leer más </a> </p>
 			</article>
-			<article>
-				<h3>¿Comó podemos darnos cuenta?</h3>
-				<p> <a href="comodarnoscuenta.html"> Leer más </a> </p>
+			<article class="card">
+				<h3 class="info">¿Comó podemos darnos cuenta?</h3>
+				<p class="leerbox"> <a class="leer"  href="comodarnoscuenta.html"> Leer más </a> </p>
 			</article>
-		</section>
-		<section>
-			<h3>¿Te interesa sumarte al compromiso? Contactate con nosotras</h3>
+		</div>
+	</section>
+	<section class="formulario">
+		<div class="form">
+		<h3 class="contactate">¿Te interesa sumarte al compromiso?</h3>
+		<p class="contactate">Contactate con nosotras</p>
 			<form method="post" action="" target="_blank" enctype="text/plain">
 				<input type="text" name="Nombre" id="Nombre" maxlength="50" placeholder="*Nombre completo" required>
 				<input type="email" name="Email" id="email" maxlength="50" placeholder="*Email" required>
 				<input type="text" name="Mensaje" id="Mensaje" maxlength="500" placeholder="Escribe un mensaje">
+				<p class="required">*Campos obligatorios</p>
 				<input type="submit" name="Enviar" id="enviar">
- 			</form>
-		<p>*Campos obligatorios</p>
-		</section>
-	</main>
+			</form>
+		</div>
+	</section>
+</main>
 	
+
 	<footer>
-		<p>Copyright © 2022 VNQ, todos los derechos reservados.</p>
-		<p>Privacidad |Términos y condiciones |Aviso legal</p>
-	</footer>
+		<div class="footer">
+	  <p>Copyright © 2022 VNQ, todos los derechos reservados</p>
+
+		<p> <a href=""> Privacidad | Términos y condiciones | Aviso legal </a></p>
+		</div>
+
+		<div class="footer2">
+
+		<img src="imagenes/redes.png" width="160" height="62" alt="redes sociales"/>
+	</div>
+</footer>
 </body>
 </html>
