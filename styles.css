@@ -81,8 +81,6 @@ form{
 		width: 40em;
 		background-color:#8B368C; 
 		border-radius: 4em;
-	
-	
 }
 .contactate {
 		text-align: center;
@@ -118,7 +116,7 @@ input{
 }
 .botonfixed {
 		margin-right: 2em;
-		font-size: 1.3em;
+		font-size: 1.2500em;
 		display: flex;
 		width: 10em;
 		height: 3em;
@@ -219,6 +217,12 @@ footer{
 		margin: 1em;
 		margin-bottom: 3em;
 }
+.textura{
+		width: 100%;
+		height: 100%;
+		background-image: url("imagenes/fondoindex.png");
+		background-repeat: repeat; 
+}
 
 .info2, .ubicacion{
 		color:#FACF00;
@@ -232,3 +236,4 @@ footer{
 .imagengaleria {
 			border-radius: 42px;
 }
+.fondo{ height:40em;}
