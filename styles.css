@@ -179,11 +179,11 @@ footer{
 		padding-top: 1.5em;
 		padding-left:3em;
 		padding-right:3em;
-		height:8em;
+		height:8em; 
 }
 .footer {
 		display: flex;
-		justify-content:space-between;
+		justify-content:space-between; 
 }
 .footer2 {
 		position: absolute;
