@@ -15,7 +15,7 @@ h2,h3,p,li{
 		font-family: montserrat;
 }
 a{
-		color: #FFE9F6
+		color: #FFE9F6;
 }
 li a{	list-style: none;
 		text-decoration: none;
@@ -26,7 +26,7 @@ li a{	list-style: none;
 }
 nav ul li {
 		display: inline;
-		float: right
+		float: right;
 	}
 
 body {
@@ -258,4 +258,8 @@ footer{
 }
 .fondo{ height:40em;
 }
-
+.redes{
+		display: inline;
+		float: right;
+		padding: 5px; 
+}
