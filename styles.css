@@ -223,19 +223,7 @@ footer{
 		align-items: center;
 		margin: 1em;
 		margin-bottom: 3em;
-}
-.card3{
-		height: 18em;
-		width: 50em;
-		background-color:#8B368C;
-		border-radius: 50px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		text-align: center;
-		align-items: center;
-		margin: 1em;
-		margin-bottom: 3em;
+
 }
 .textura{
 		width: 100%;
