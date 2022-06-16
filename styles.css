@@ -1,21 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
-nav{	height: 60px;
+nav{	height: 70px;
 		width:100%;
 		margin-top: 0px;
 		background-color:#FACF00;
 		padding-top:1em;
-		
 }
-.logo { display: flex;
-		float: left;
-		margin-left: 3em;}
 
 h2,h3,p,li{
 		font-family: montserrat;
 }
 a{
-		color: #FFE9F6;
+		color: #FFE9F6
 }
 li a{	list-style: none;
 		text-decoration: none;
@@ -179,7 +175,7 @@ footer{
 		padding-top: 1.5em;
 		padding-left:3em;
 		padding-right:3em;
-		height:8em; 
+		height:8em;
 }
 .footer {
 		display: flex;
@@ -188,9 +184,6 @@ footer{
 .footer2 {
 		position: absolute;
 		right: 2.5em;
-}
-.footer a{
-		text-decoration: none; 
 }
 .required {
 		color:#FACF00
@@ -223,19 +216,6 @@ footer{
 		align-items: center;
 		margin: 1em;
 		margin-bottom: 3em;
-
-}
-.card3{
-		background-color:#8B368C; 
-		border-radius: 50px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		text-align: center;
-		align-items: center;
-		margin: 1em;
-		margin-bottom: 3em;
-
 }
 .textura{
 		width: 100%;
@@ -250,19 +230,69 @@ footer{
 		
 }
 .imagenmain {
-		width: 100%;
-		height:100%;
+			width: 100%;
+			height:100%;
 }
 .imagengaleria {
-		border-radius: 42px;
+			border-radius: 42px;
 }
-.fondo{ height:40em;
+.fondo{ height:40em;}
+
+.imgtipos {
+		background-color:#FACF00;
+		border-radius: 50%;
+		padding: 40px 90px 40px 90px;
 }
-.redes{
-		display: inline;
-		float: right;
-		padding: 5px; 
+.imgtipos2 {
+		background-color:#FACF00;
+		border-radius: 50%;
+		padding: 50px 40px 60px 40px;
+		margin-bottom: 10px;
 }
+.imgtipos3 {
+		background-color:#FACF00;
+		border-radius: 50%;
+		padding: 100px 10px 100px 10px;
+		margin-bottom: 10px;
+}
+.imgtipos4 {
+		background-color:#FACF00;
+		border-radius: 50%;
+		padding: 40px 80px 40px 80px;
+		margin-top: 80px;
+}
+.imgtipos5 {
+		background-color:#FACF00;
+		border-radius: 50%;
+		padding: 60px 50px 70px 60px;
+		margin-top:80px;
+}
+.flexcontainer {
+		display:flex;
+		width: 70%;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-left: 17%;
+}
+.tiposdev {
+		text-align: center;
+		font-size: 70px;
+		padding: 60px 0px 60px 0px;
+		margin-left: 30%;
+		width: 40%;
+	
+}
+article h2 {
+		color:#8B368C;
+		text-align: center;
+}
+article ul {
+		list-style: none;
+		text-align: center;
+		padding-left:3px;
+		font-family: "Montserrat";
+}
+
 #mancha{
 	width: 1381px;
 	height: 593px;
@@ -308,4 +338,4 @@ footer{
 	100%{
 		background: url("imagenes/animacion/2.svg")
 	}
-}
+
