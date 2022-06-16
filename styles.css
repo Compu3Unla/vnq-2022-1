@@ -239,51 +239,57 @@ footer{
 .fondo{ height:40em;}
 
 .imgtipos {
-	background-color:#FACF00;
-	border-radius: 50%;
-	padding: 40px 90px 40px 90px;
+		background-color:#FACF00;
+		border-radius: 50%;
+		padding: 40px 90px 40px 90px;
 }
 .imgtipos2 {
-	background-color:#FACF00;
-	border-radius: 50%;
-	padding: 50px 40px 50px 40px;
+		background-color:#FACF00;
+		border-radius: 50%;
+		padding: 50px 40px 50px 40px;
 }
 .imgtipos3 {
-	background-color:#FACF00;
-	border-radius: 50%;
-	padding: 90px 10px 90px 10px;
+		background-color:#FACF00;
+		border-radius: 50%;
+		padding: 90px 10px 90px 10px;
 }
 .imgtipos4 {
-	background-color:#FACF00;
-	border-radius: 50%;
-	padding: 40px 80px 40px 80px;
-	margin-top: 80px;
+		background-color:#FACF00;
+		border-radius: 50%;
+		padding: 40px 80px 40px 80px;
+		margin-top: 80px;
+}
+.imgtipos5 {
+		background-color:#FACF00;
+		border-radius: 50%;
+		padding: 60px 50px 70px 60px;
+		margin-top:80px;
 }
 .flexcontainer {
-	display:flex;
-	width: 70%;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	margin-left: 17%;
+		display:flex;
+		width: 70%;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-left: 17%;
 }
 .tiposdev {
-	text-align: center;
-	font-size: 70px;
-	padding: 60px 0px 60px 0px;
-	margin-left: 30%;
-	width: 40%;
+		text-align: center;
+		font-size: 70px;
+		padding: 60px 0px 60px 0px;
+		margin-left: 30%;
+		width: 40%;
 	
 }
 article h2 {
-	color:#8B368C;
-	text-align: center;
+		color:#8B368C;
+		text-align: center;
 }
 article ul {
-	list-style: none;
-	text-align: center;
-	padding-left:3px;
-	font-family: "Montserrat";
+		list-style: none;
+		text-align: center;
+		padding-left:3px;
+		font-family: "Montserrat";
 }
 .mainlargo {
-	height: 1600px;
+		height: 1600px;
 }
