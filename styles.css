@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-nav{	height: 70px;
+nav{	height: 60px;
 		width:100%;
 		margin-top: 0px;
 		background-color:#FACF00;
@@ -258,3 +258,4 @@ footer{
 }
 .fondo{ height:40em;
 }
+
