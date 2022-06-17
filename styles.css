@@ -223,7 +223,7 @@ footer{
 		text-align: center;
 		align-items: center;
 		margin: 1em;
-		margin-bottom: 3em;
+		margin-bottom: 1em;
 
 }
 .info2{
@@ -242,9 +242,15 @@ footer{
 		justify-content: center;
 		text-align: center;
 		align-items: center;
-		margin: 0.625 0.625 3em 0.625;
+		margin: 0.313 0.313 3em 0.313;
 		height: 250px;
 		width: 20%;
+}
+.espacio3{
+		display: flex;
+		flex-direction: column;
+		align-items: center; 
+		width: 50%;
 }
 .espacio{
 		margin-bottom: 28em;
@@ -298,7 +304,6 @@ footer{
 }
 .desplegable{
 		display: flex;
-		margin-top: 0px
 }
 .imgtipos5 {
 		background-color:#FACF00;
