@@ -7,6 +7,9 @@ nav{	height: 60px;
 		padding-top:1em;
 		
 }
+nav a:hover{
+		color: #8B368C; 
+}
 .logo { display: flex;
 		float: left;
 		margin-left: 3em;}
@@ -282,6 +285,4 @@ footer{
 		display: flex;
 		margin-top: 0px
 }
-.color:hover{
-		background-color: #8B368C; 
-}
+
