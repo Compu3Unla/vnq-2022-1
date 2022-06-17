@@ -250,7 +250,7 @@ footer{
 		margin: 9.5em 0em 15em 0em;
 		display: flex;
 		flex-direction: column;
-		align-items: center; 
+		align-items: center;
 }
 .espacio2{
 		display: flex;
@@ -262,7 +262,7 @@ footer{
 		display: flex;
 		justify-content: space-around;
 		margin-right: 10em;
-		width: 70%;
+		width: 75%;
 }
 .textura{
 		width: 100%;
