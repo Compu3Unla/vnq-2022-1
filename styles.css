@@ -228,7 +228,6 @@ footer{
 }
 .info2{
 		width: 9em;
-		height:10em;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -243,8 +242,9 @@ footer{
 		justify-content: center;
 		text-align: center;
 		align-items: center;
-		margin: 1em;
-		margin-bottom: 3em;
+		margin: 0.625 0.625 3em 0.625;
+		height: 250px;
+		width: 20%;
 }
 .espacio{
 		margin-bottom: 28em;
