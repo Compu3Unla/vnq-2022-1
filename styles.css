@@ -225,9 +225,13 @@ footer{
 		margin-bottom: 3em;
 
 }
+.info2{
+		width: 22,5em;
+		height:20,4375em
+}
 .card3{
 		background-color:#8B368C; 
-		border-radius: 50px;
+		border-radius: 30px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -236,6 +240,9 @@ footer{
 		margin: 1em;
 		margin-bottom: 3em;
 
+}
+.espacio{
+		margin-bottom: 28em;
 }
 .textura{
 		width: 100%;
