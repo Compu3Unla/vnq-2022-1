@@ -202,7 +202,6 @@ footer{
 }
 
 .title2{
-		direction: flex;
 		margin:2em;
 		margin-left: 9em;
 		margin-right: 9em;
@@ -246,17 +245,18 @@ footer{
 		height: 250px;
 		width: 20%;
 }
-.espacio3{
-		display: flex;
-		flex-direction: column;
-		align-items: center; 
-		width: 60%;
-}
+
 .espacio{
-		margin-bottom: 15em;
+		margin: 9.5em 0em 15em 0em;
 }
 .espacio2{
 		margin-top: 5em; 
+}
+.espacio3{
+		display: flex;
+		justify-content: space-around;
+		margin-right: 10em;
+		width: 80%
 }
 .textura{
 		width: 100%;
