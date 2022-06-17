@@ -23,6 +23,7 @@ li a{	list-style: none;
 		font-weight: 700;
 		font-size: 1.1em;
 		padding: 3em;
+	
 }
 nav ul li {
 		display: inline;
@@ -196,7 +197,7 @@ footer{
 		color:#FACF00
 }
 .fondoclaro {
-	background-color: #FFE9F6; 
+		background-color: #FFE9F6; 
 }
 
 .title2{
@@ -205,7 +206,6 @@ footer{
 		margin-left: 9em;
 		margin-right: 9em;
 		font-size:1.7em;
-
 		text-align: center;
 		color:#232323;
 		font-weight: 600;
@@ -226,12 +226,17 @@ footer{
 
 }
 .info2{
-		width: 22,5em;
-		height:20,4375em; 
+		width: 9em;
+		height:10em;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		margin: 1em 2em 2em
 }
 .card3{
 		background-color:#8B368C; 
-		border-radius: 30px;
+		border-radius: 50px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -272,4 +277,11 @@ footer{
 		display: inline;
 		float: right;
 		padding: 5px; 
+}
+.desplegable{
+		display: flex;
+		margin-top: 0px
+}
+.color:hover{
+		background-color: #8B368C; 
 }
