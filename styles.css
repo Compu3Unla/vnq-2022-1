@@ -6,6 +6,12 @@ nav{	height: 70px;
 		background-color:#FACF00;
 		padding-top:1em;
 }
+nav a:hover{
+		color: #8B368C; 
+}
+.logo { display: flex;
+		float: left;
+}
 
 h2,h3,p,li{
 		font-family: montserrat;
@@ -19,6 +25,7 @@ li a{	list-style: none;
 		font-weight: 700;
 		font-size: 1.1em;
 		padding: 3em;
+	
 }
 nav ul li {
 		display: inline;
@@ -146,6 +153,7 @@ input{
 		justify-content: center;
 		align-items: center;
 }
+
 .leer{ 	
 		text-decoration: none;
 		font-size: 1.2em;
@@ -154,6 +162,7 @@ input{
 		display: flex;
 		align-content: center;
 }
+
 .cards {
 		display: flex;
 		justify-content: space-around;
@@ -189,7 +198,7 @@ footer{
 		color:#FACF00
 }
 .fondoclaro {
-	background-color: #FFE9F6; 
+		background-color: #FFE9F6; 
 }
 
 .title2{
@@ -198,7 +207,6 @@ footer{
 		margin-left: 9em;
 		margin-right: 9em;
 		font-size:1.7em;
-
 		text-align: center;
 		color:#232323;
 		font-weight: 600;
@@ -216,6 +224,33 @@ footer{
 		align-items: center;
 		margin: 1em;
 		margin-bottom: 3em;
+
+}
+.info2{
+		width: 9em;
+		height:10em;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		margin: 1em 2em 2em
+}
+.card3{
+		background-color:#8B368C; 
+		border-radius: 50px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		margin: 1em;
+		margin-bottom: 3em;
+}
+.espacio{
+		margin-bottom: 28em;
+}
+.espacio2{
+		margin-top: 5em; 
 }
 .textura{
 		width: 100%;
@@ -260,6 +295,10 @@ footer{
 		border-radius: 50%;
 		padding: 40px 80px 40px 80px;
 		margin-top: 80px;
+}
+.desplegable{
+		display: flex;
+		margin-top: 0px
 }
 .imgtipos5 {
 		background-color:#FACF00;
