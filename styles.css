@@ -321,9 +321,9 @@ section{
 }
 .tiposdev {
 		text-align: center;
-		width: 50%;
+		width: 40%;
 		font-size: 70px;
-		padding: 60px 0px 60px 0px;
+		padding-bottom: 50px;
 }
 article h2 {
 		color:#8B368C;
