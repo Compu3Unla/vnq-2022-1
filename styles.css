@@ -318,7 +318,6 @@ section{
 		width: 70%;
 		flex-wrap: wrap;
 		justify-content: space-around;
-		margin-left: 17%;
 }
 .tiposdev {
 		text-align: center;
@@ -338,7 +337,6 @@ article ul {
 		padding-left:3px;
 		font-family: "Montserrat";
 }
-
 #mancha{
 	width: 1381px;
 	height: 593px;
