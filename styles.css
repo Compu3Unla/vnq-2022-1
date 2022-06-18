@@ -6,6 +6,12 @@ nav{	height: 70px;
 		background-color:#FACF00;
 		padding-top:1em;
 }
+nav a:hover{
+		color: #8B368C; 
+}
+.logo { display: flex;
+		float: left;
+}
 
 h2,h3,p,li{
 		font-family: montserrat;
@@ -19,6 +25,7 @@ li a{	list-style: none;
 		font-weight: 700;
 		font-size: 1.1em;
 		padding: 3em;
+	
 }
 nav ul li {
 		display: inline;
@@ -146,6 +153,7 @@ input{
 		justify-content: center;
 		align-items: center;
 }
+
 .leer{ 	
 		text-decoration: none;
 		font-size: 1.2em;
@@ -154,11 +162,16 @@ input{
 		display: flex;
 		align-content: center;
 }
+
 .cards {
 		display: flex;
 		justify-content: space-around;
 		margin-left: 10em;
 		margin-right: 10em;
+		width: 50%;
+}
+.width-30{
+		width: 33.5% !important
 }
 .title{
 		direction: flex;
@@ -181,24 +194,26 @@ footer{
 		display: flex;
 		justify-content:space-between;
 }
+.terminos{
+		display: flex;
+}
+
 .footer2 {
-		position: absolute;
-		right: 2.5em;
+		display: flex;
+		justify-content: flex-end;
 }
 .required {
 		color:#FACF00
 }
 .fondoclaro {
-	background-color: #FFE9F6; 
+		background-color: #FFE9F6; 
 }
 
 .title2{
-		direction: flex;
 		margin:2em;
 		margin-left: 9em;
 		margin-right: 9em;
 		font-size:1.7em;
-
 		text-align: center;
 		color:#232323;
 		font-weight: 600;
@@ -215,8 +230,36 @@ footer{
 		text-align: center;
 		align-items: center;
 		margin: 1em;
-		margin-bottom: 3em;
+		margin-bottom: 1em;
+
 }
+.info2{
+		width: 9em;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		margin: 1em 2em 2em
+}
+.card3{
+		background-color:#8B368C; 
+		border-radius: 50px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		margin: 0.313 0.313 3em 0.313;
+		height: 250px;
+}
+
+section{
+		margin: 9.5em 0em 15em 0em;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+
 .textura{
 		width: 100%;
 		height: 100%;
@@ -259,28 +302,28 @@ footer{
 		background-color:#FACF00;
 		border-radius: 50%;
 		padding: 40px 80px 40px 80px;
-		margin-top: 80px;
+}
+.desplegable{
+		display: flex;
 }
 .imgtipos5 {
 		background-color:#FACF00;
 		border-radius: 50%;
 		padding: 60px 50px 70px 60px;
-		margin-top:80px;
 }
 .flexcontainer {
 		display:flex;
 		width: 70%;
 		flex-wrap: wrap;
 		justify-content: space-around;
-		margin-left:10%;
+		margin-left:10em;
+		margin-right: 10em;
 }
 .tiposdev {
 		text-align: center;
+		width: 50%;
 		font-size: 70px;
 		padding: 60px 0px 60px 0px;
-		margin-left: 30%;
-		width: 40%;
-	
 }
 article h2 {
 		color:#8B368C;
@@ -292,3 +335,48 @@ article ul {
 		padding-left:3px;
 		font-family: "Montserrat";
 }
+#mancha{
+	width: 1381px;
+	height: 593px;
+	animation-name: slidein;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-direction: normal;
+	animation-timing-function: linear;
+	background-repeat: no-repeat;
+}
+#mancha:hover{
+	animation-play-state: paused;
+}
+@keyframes slidein{
+	0%{
+		background: url("imagenes/animacion/recurso1.svg")
+	}
+	10%{
+		background: url("imagenes/animacion/recurso.svg")
+	}
+	20%{
+		background: url("imagenes/animacion/recurs.svg")
+	}
+	30%{
+		background: url("imagenes/animacion/recur.svg")
+	}
+	50%{
+		background: url("imagenes/animacion/recu.svg")
+	}
+	60%{
+		background: url("imagenes/animacion/rec.svg")
+	}
+	70%{
+		background: url("imagenes/animacion/re.svg")
+	}
+	80%{
+		background: url("imagenes/animacion/r.svg")
+	}
+	90%{
+		background: url("imagenes/animacion/1.svg")
+	}
+	100%{
+		background: url("imagenes/animacion/2.svg")	
+	}
