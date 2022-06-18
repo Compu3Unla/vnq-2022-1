@@ -342,10 +342,10 @@ article ul {
 .sectionqev {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-around;
+		justify-content:space-around;
 		flex-wrap: wrap;
 		width: 70%;
-		margin-left:20em;	
+		margin-left: 15em;
 }
 .qeslav {
 		text-align: center;
