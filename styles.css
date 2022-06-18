@@ -272,6 +272,7 @@ footer{
 		width: 70%;
 		flex-wrap: wrap;
 		justify-content: space-around;
+		margin-left:10%;
 }
 .tiposdev {
 		text-align: center;
