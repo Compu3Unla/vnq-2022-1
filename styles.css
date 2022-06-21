@@ -195,10 +195,15 @@ footer{
 		display: flex;
 }
 
+.terminos a{
+		text-decoration: none;
+}
+
 .footer2 {
 		margin-top: 0.313em; 
 		display: flex;
 		justify-content: flex-end;
+		
 }
 .required {
 		color:#FACF00
