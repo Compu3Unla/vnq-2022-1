@@ -305,7 +305,6 @@ section{
 		background-color:#FACF00;
 		border-radius: 50%;
 		padding: 40px 80px 40px 80px;
-		margin-top: 80px;
 }
 .desplegable{
 		display: flex;
@@ -314,22 +313,20 @@ section{
 		background-color:#FACF00;
 		border-radius: 50%;
 		padding: 60px 50px 70px 60px;
-		margin-top:80px;
 }
 .flexcontainer {
 		display:flex;
 		width: 70%;
 		flex-wrap: wrap;
 		justify-content: space-around;
-		margin-left: 17%;
+		margin-left:10em;
+		margin-right: 10em;
 }
 .tiposdev {
 		text-align: center;
-		font-size: 70px;
-		padding: 60px 0px 60px 0px;
-		margin-left: 30%;
 		width: 40%;
-	
+		font-size: 70px;
+		padding-bottom: 50px;
 }
 article h2 {
 		color:#8B368C;
@@ -341,6 +338,73 @@ article ul {
 		padding-left:3px;
 		font-family: "Montserrat";
 }
+.footeralt {
+		border-top-style: solid;
+		border-color: #FACF00;
+}
+.sectionqev {
+		display: flex;
+		flex-direction: row;
+		justify-content:space-around;
+		flex-wrap: wrap;
+		width: 70%;
+		margin-left: 15em;
+}
+.qeslav {
+		text-align: center;
+		padding: 0% 30% 0% 30%;
+		font-size:70px;
+		color: white;
+		margin-top: 50px;
+}
+
+.h2alt {
+	color:#FACF00;
+}
+.subqev {
+		text-align: center;
+		padding: 0% 30% 0% 30%;
+		color:#FACF00;
+		font-size: 40px;
+}
+.a {
+	align-content: center;
+	width:40%;
+	text-align: center;
+	color:white;
+	margin-bottom:50px
+}
+.b{
+	align-content: center;
+	width:25%;
+	text-align: center;
+	color:white;
+	margin-top: 50px;
+}
+.c {
+	align-content: center;
+	width:25%;
+	text-align: center;
+	color:white;
+	padding-top: 10%;
+}
+.pblanco {
+	color:white;
+	font-size: 25px;
+}
+.sectionqev2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 90%;
+	align-content: space-around;
+	text-align: center;
+}
+.sectionqev2 article {
+	width: 50%;
+}
+
 
 #mancha{
 	width: 1381px;
@@ -385,5 +449,5 @@ article ul {
 		background: url("imagenes/animacion/1.svg")
 	}
 	100%{
-		background: url("imagenes/animacion/2.svg")
+		background: url("imagenes/animacion/2.svg")	
 	}
