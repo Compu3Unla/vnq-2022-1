@@ -2,15 +2,16 @@
 /* CSS Document */
 nav{	height: 70px;
 		width:100%;
-		margin-top: 0px;
 		background-color:#FACF00;
 		padding-top:1em;
+		display: flex;
+		justify-content: space-between;
 }
 nav a:hover{
 		color: #8B368C; 
 }
-.logo { display: flex;
-		float: left;
+.logo { 
+		margin-left: 5px; 
 }
 
 h2,h3,p,li{
@@ -33,12 +34,8 @@ nav ul li {
 	}
 
 body {
+		margin: 0px; 
 		background-color: #8B368C;
-		margin-left: 0px;
-		margin-top: 0px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-
 }
 
 .ong{	margin-left: 16em;
