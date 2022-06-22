@@ -213,7 +213,7 @@ footer{;
 .card2{
 		height: 18em;
 		width: 16em;
-		border-radius: 50px;
+		border-radius: 35px;
 		align-items: center;
 		margin: 1em;
 		margin-bottom: 1em;
@@ -260,7 +260,7 @@ section{
 		height:100%;
 }
 .imagengaleria {
-		border-radius: 42px;
+		border-radius: 20px;
 }
 .fondo{ height:40em;}
 
