@@ -60,6 +60,7 @@ nav,.formulario,.botonfixed,.imgtipos,.imgtipos2,.imgtipos3,.imgtipos4,.imgtipos
 		position: relative;
 		bottom: 38px;
 }
+
 li a{
 		font-weight: 700;
 		font-size: 1.1em;
@@ -146,9 +147,6 @@ input{
 		top: 29em;
 		box-shadow: 2px 2px 4px #8A378B;
 		
-}
-.botonfixed a:hover{
-		color:#8B368C;
 }
 
 .info {
