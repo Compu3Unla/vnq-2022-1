@@ -38,7 +38,7 @@ body,footer,.form,.leerbox,.card2,.card3{
 nav,.formulario,.botonfixed,.imgtipos,.imgtipos2,.imgtipos3,.imgtipos4,.imgtipos5{
 		background-color:#FACF00;
 }
-.info2, .ubicacion,.leer,.title,.required,h2alt,.subqev{
+.info2, .ubicacion,.leer,.title,.required,h2alt,.subqev,.info3{
 		color:#FACF00;
 }
 .card,.input{
@@ -212,17 +212,23 @@ footer{;
 
 .card2{
 		height: 18em;
-		width: 50em;
+		width: 16em;
 		border-radius: 50px;
 		align-items: center;
 		margin: 1em;
 		margin-bottom: 1em;
 
 }
-.info2{
-		width: 9em;
+.info3,.info2{
 		margin: 1em 2em 2em
 }
+.info2{
+		width: 8em;
+}
+.info3{
+		width: 11em;
+}
+
 .card3{
 		border-radius: 50px;
 		align-items: center;
