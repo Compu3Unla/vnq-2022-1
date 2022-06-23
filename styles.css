@@ -198,6 +198,17 @@ input{
 		font-weight: 500;
 	
 }
+
+.imagen1{
+		position: absolute;
+		top: 687px;
+		right: 0px;
+}
+.imagen2{
+	position: absolute;
+	top: 570px;
+	left: 0px;
+}
 footer{;
 		margin:0;
 		padding: 1.5em 3em 0 3em;
@@ -275,7 +286,9 @@ section{
 .imagengaleria {
 		border-radius: 20px;
 }
-.fondo{ height:40em;}
+.fondo{ 
+		height:49em;
+}
 
 .imgtipos {
 		border-radius: 50%;
