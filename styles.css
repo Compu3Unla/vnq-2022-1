@@ -52,7 +52,7 @@ nav,.formulario,.botonfixed,.imgtipos,.imgtipos2,.imgtipos3,.imgtipos4,.imgtipos
 .card, nav,.formulario,form,.form,.ayuda,.leer,.botonfixed,.cards,.footer,.terminos,.footer2,.card2,.info2,.card3,section,.desplegable,.flexcontainer,.sectionqev,.sectionqev2 {
 		display: flex;
 }
-.card,.ong,.contactate,.title,.title2,.card2,.info2,.card3,.tiposdev,article h2,article ul,.qeslav,.subqev,.a,.b,.c,.sectionqev2{
+.card,.ong,.contactate,.title,.title2,.card2,.info2,.card3,article h2,article ul,.subqev,.a,.b,.c,.sectionqev2{
 		text-align: center;
 }
 
@@ -294,9 +294,9 @@ section{
 		margin-right: 10em;
 }
 .tiposdev {
-		width: 40%;
-		font-size: 70px;
-		padding-bottom: 50px;
+		position: relative;
+		top:0px;
+		left:14px;
 }
 
 article ul {;
@@ -319,9 +319,7 @@ article ul {;
 		left:367px;
 		top:0px;
 }
-.h2alt{
-		font-size:50px;
-}
+
 .subqev {
 		padding: 0% 30% 0% 30%;
 		font-size: 40px;
