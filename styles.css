@@ -61,6 +61,10 @@ nav,.formulario,.botonfixed,.imgtipos,.imgtipos2,.imgtipos3,.imgtipos4,.imgtipos
 		bottom: 38px;
 }
 
+.espacio4{
+		position: relative;
+		top:10px;
+}
 li a{
 		font-weight: 700;
 		font-size: 1.1em;
@@ -76,7 +80,7 @@ body {
 		margin: 0px; 
 }
 
-.ong{	margin: 2em 16em 2em 16em;
+.ong{	margin: 3em 16em 2em 16em;
 		font-size:1.5em;
 		font-weight: 600;
 	
@@ -94,6 +98,7 @@ body {
 		align-content: center;
 		flex-direction: column;
 }
+
 form{
 	flex-direction: column;
 	align-content: center;
@@ -172,7 +177,7 @@ input{
 		justify-content: space-around;
 		margin-left: 10em;
 		margin-right: 10em;
-		width: 50%;
+		width: 60%;
 }
 .width-30{
 		width: 33.5% !important
@@ -355,7 +360,7 @@ article ul {;
 	width: 50%;
 }
 .frase {background-image: url("imagenes/fondoindex.jpg");
-		height: 32.5em;}
+		height: 28.5em;}
 #mancha{
 	width: 920px;
 	height: 593px;
