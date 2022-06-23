@@ -134,7 +134,7 @@ input{
 }
 .botonfixed {
 		margin-right: 2em;
-		font-size: 1.2500em;
+		font-size: 1.25em;
 		width: 10em;
 		height: 3em;
 		align-items: center;
@@ -144,7 +144,7 @@ input{
 		border-width: 0.07em;
 		border-style: solid;
 		position: fixed;
-		top: 29em;
+		top: 25em;
 		box-shadow: 2px 2px 4px #8A378B;
 		
 }
