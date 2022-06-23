@@ -419,14 +419,11 @@ article ul {;
 	height: 3em;
   padding-bottom: 5em;
 	padding-top:5em; 
-
   color: #FEEB15;
   background: #8B368C;
-
   cursor: pointer;
-
   border-radius: 20px;
-  transition: all 0.25s ease-out;
+  transition: all 0.1s ease-out;
 }
 /*estilo contenido desplegable*/
 .collapsible-content .content-inner {
