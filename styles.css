@@ -420,7 +420,7 @@ article ul {;
 	color: #FEEB15;
 	background: #8B368C;
 	cursor: pointer;
-	border-radius: 20px;
+	border-radius: 45px;
 	transition: all 0.1s ease-out;
 }
 /*estilo contenido desplegable*/
@@ -431,8 +431,8 @@ article ul {;
 	font-size: 0.8rem;
  	border-bottom: 1px solid rgba(250, 224, 66, .45);
 	width: 16.25em;
- 	border-bottom-left-radius: 20px;
- 	border-bottom-right-radius: 20px;
+ 	border-bottom-left-radius: 45px;
+ 	border-bottom-right-radius: 45px;
   	padding: .5rem 1rem;
 	padding-bottom: 2em;
 	
