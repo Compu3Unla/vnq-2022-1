@@ -592,28 +592,29 @@ label img {
 .overlay {
 position: fixed;
  	top:1.5em;
-  right: 2.2em;
-  width: 15em;
-height: 22em;
-	
+  	right: 2.2em;
+ 	width: 15em;
+	height: 22em;
 	padding:1em;
 	border-radius: 3em;
-  opacity:100;
-  transition: .1s ease-in;
-  background-color: #FACF00;
-display: none;
+  	opacity:100;
+  	transition: .1s ease-in;
+  	background-color: #FACF00;
+	display: none;
 	text-align: center;
 	border-color: #C6A000;
-		border-width: 0.07em;
-		border-style: solid;
+	border-width: 0.07em;
+	border-style: solid;
 	justify-content: space-around;
+	z-index: 20;
 
 }
 
 /* accion efecto */
 #overlay:checked + .botonfixed + .overlay{
 	display: block;
-   opacity: 100;
+    opacity: 100;
+	
 }
 
 
