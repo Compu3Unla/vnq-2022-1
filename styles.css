@@ -367,6 +367,8 @@ article ul {;
 	animation-direction: normal;
 	animation-timing-function: linear;
 	background-repeat: no-repeat;
+	position: relative;
+	bottom: 74px;
 }
 #mancha:hover{
 	animation-play-state: paused;
