@@ -86,7 +86,7 @@ body {
 }
 .card {
 		height: 336px;
-		width: 368px;; 
+		width: 368px; 
 		align-items: center;
 		margin: 16px 16px 80px 16px;
 }
@@ -108,13 +108,13 @@ form{
 		padding-top:32px;
 		align-items: center;
 		height: 800px;
-		width: 640px;; 
+		width: 640px; 
 		border-radius: 64px;
 }
 
 input{ 
-		margin: 8px;;
-		height: 56px;;
+		margin: 8px;
+		height: 56px;
 		width:480px;
 		font-size: 1em;
 		font-weight: 500;
@@ -264,7 +264,7 @@ section{
 		margin: 88px 0px 16px 0px;
 }
 .espacio2{
-		margin: 56px 0px 240px 0px;; 
+		margin: 56px 0px 240px 0px; 
 }
 
 .textura{
