@@ -457,14 +457,14 @@ article ul {;
   margin-right: .7rem;
   transform: translateY(-2px);
 
-  transition: transform .2s ease-out;
+  transition: transform .05s ease-out;
 }
 
 .collapsible-content {
   max-height: 0px;
   overflow: hidden;
 
-  transition: max-height .25s ease-in-out;
+  transition: max-height .05s ease-in-out;
 }
 .desplegable:checked + .label-desplegable + .collapsible-content {
   max-height: 100vh;
