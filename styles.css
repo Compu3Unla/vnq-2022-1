@@ -208,6 +208,7 @@ input{
 	position: absolute;
 	top: 570px;
 	left: 0px;
+	z-index: 10;
 }
 footer{;
 		margin:0;
@@ -241,6 +242,7 @@ footer{;
 		align-items: center;
 		margin: 1em;
 		margin-bottom: 1em;
+		z-index: 20;
 
 }
 .info3,.info2{
@@ -251,13 +253,6 @@ footer{;
 }
 .info3{
 		width: 11em;
-}
-
-.card3{
-		border-radius: 50px;
-		align-items: center;
-		margin: 0.313 0.313 3em 0.313;
-		height: 250px;
 }
 
 section{
