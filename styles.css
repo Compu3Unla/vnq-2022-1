@@ -426,7 +426,7 @@ article ul {;
 	width: 920px;
 	height: 593px;
 	animation-name: slidein;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-play-state: running;
 	animation-direction: normal;
