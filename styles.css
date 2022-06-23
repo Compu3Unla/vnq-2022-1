@@ -76,9 +76,10 @@ body {
 		margin: 0px; 
 }
 
-.ong{	margin: 0 16em 0 16em;
+.ong{	margin: 2em 16em 2em 16em;
 		font-size:1.5em;
 		font-weight: 600;
+	
 }
 .card {
 		height: 21em;
@@ -100,7 +101,6 @@ form{
 .form{	
 		margin-top: 5em;
 		margin-bottom: 5em;
-		margin-left: 30%;
 		padding-top:2em;
 		align-items: center;
 		height: 50em;
@@ -354,9 +354,9 @@ article ul {;
 .sectionqev2 article {
 	width: 50%;
 }
-
+.frase {background-image: url("imagenes/fondoindex.jpg")}
 #mancha{
-	width: 1381px;
+	width: 920px;
 	height: 593px;
 	animation-name: slidein;
 	animation-duration: 1s;
