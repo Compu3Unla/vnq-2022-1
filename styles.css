@@ -4,6 +4,8 @@ nav{	height: 70px;
 		width:100%;
 		padding-top:1em;
 		justify-content: space-between;
+		position: relative;
+		z-index:10; 
 }
 
 nav a:hover,article h2{
@@ -432,10 +434,9 @@ article ul {;
 	background-repeat: no-repeat;
 	position: relative;
 	bottom: 74px;
+	z-index:1;
 }
-#mancha:hover{
-	animation-play-state: paused;
-}
+
 @keyframes slidein{
 	0%{
 		background: url("imagenes/animacion/recurso1.svg")
