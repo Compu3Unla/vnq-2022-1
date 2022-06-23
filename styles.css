@@ -16,7 +16,7 @@ nav a:hover,article h2{
 		margin-left: 2em;
 }
 
-h2,h3,p,li,article ul,.botonfixed {
+h2,h3,p,li,article ul,.botonfixed{
 		font-family: montserrat;
 }
 a, .contactate,footer,.ong,.consejos,.consejos2 {
@@ -28,13 +28,13 @@ li a, article ul{
 li a,.leer,.terminos a,.info2, .ubicacion,.botonfixed a {
 		text-decoration: none;
 }
-li a, input,.info,.title2{
+li a, input,.info,.title2,textarea{
 		color: #232323;
 }
 body,footer,.form,.leerbox,.card2,.card3{
 		background-color: #8B368C
 }
-.card, input,.fondoclaro{
+.card, input,.fondoclaro,textarea{
 		background-color:#FFE9F6;
 }
 nav,.formulario,.botonfixed,.imgtipos,.imgtipos2,.imgtipos3,.imgtipos4,.imgtipos5{
@@ -43,7 +43,7 @@ nav,.formulario,.botonfixed,.imgtipos,.imgtipos2,.imgtipos3,.imgtipos4,.imgtipos
 .info2, .ubicacion,.leer,.title,.required,h2alt,.subqev,.info3{
 		color:#FACF00;
 }
-.card,.input{
+.card,.input,textarea{
 		border-radius: 56px;
 }
 
@@ -111,12 +111,13 @@ form{
 		border-radius: 4em;
 }
 
-input{
+input,textarea{
+		font-family: Montserrat;
 		margin: 0.5em;
 		height: 3.5em;
 		width:30em;
 		font-size: 1em;
-		font-weight: 500;;
+		font-weight: 500;
 		border: none;
 		padding-left: 2em;
 		border-radius: 3em;
@@ -124,6 +125,7 @@ input{
 }
 #Mensaje {
 		height:20em;
+		width: 38em;
 }
 #enviar{
 		padding: 0;
