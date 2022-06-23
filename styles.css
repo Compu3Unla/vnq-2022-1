@@ -17,7 +17,7 @@ nav a:hover,article h2{
 h2,h3,p,li,article ul {
 		font-family: montserrat;
 }
-a, .contactate,footer,.ong {
+a, .contactate,footer,.ong,.consejos {
 		color: #FFE9F6;
 }
 li a, article ul{
@@ -444,39 +444,42 @@ article ul {;
 	
 }
 .label-desplegable:hover {
-  color: #FEEB15;
+		color: #FEEB15;
 }
 .label-desplegable::before {
-	  display: inline-block;
-	  border-top: 5px solid transparent;
-	  border-bottom: 5px solid transparent;
-	  border-left: 5px solid currentColor;
-	  vertical-align: middle;
-	  margin-right: .7rem;
-	  transform: translateY(-2px);
-	  transition: transform .05s ease-out;
+		display: inline-block;
+		border-top: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+		border-left: 5px solid currentColor;
+		vertical-align: middle;
+		transform: translateY(-2px);
+		transition: transform .05s ease-out;
 }
 
 .collapsible-content {
-	  max-height: 0px;
-	  overflow: hidden;
-	  transition: max-height .05s ease-in-out;
+		max-height: 0px;
+		overflow: hidden;
+		transition: max-height .05s ease-in-out;
 }
 .desplegable:checked + .label-desplegable + .collapsible-content {
-  max-height: 100vh;
+		max-height: 100vh;
 }
 .desplegable:checked + .label-desplegable::before {
-  transform: rotate(90deg) translateX(-3px);
+		transform: rotate(90deg) translateX(-3px);
 }
 
 .desplegable:checked + .label-desplegable {
-	  border-bottom-right-radius: 0;
-	  border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+		border-bottom-left-radius: 0;
 }
 .desplegable{
-	display: none;
+		display: none;
 }
 .flex{
-	display: flex;
-	flex-direction: row;
+		display: flex;
+		flex-direction: row;
+}
+.consejos{
+		font-size: 1.25em;
+		width: 157px;
 }
