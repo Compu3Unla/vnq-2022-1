@@ -2,7 +2,7 @@
 /* CSS Document */
 nav{	height: 70px;
 		width:100%;
-		padding-top:1em;
+		padding-top:16px;
 		justify-content: space-between;
 		position: relative;
 		z-index:10; 
@@ -13,7 +13,7 @@ nav a:hover,article h2{
 }
 
 .logo { 
-		margin-left: 2em;
+		margin-left: 32px;
 }
 
 h2,h3,p,li,article ul,.botonfixed{
@@ -31,7 +31,7 @@ li a,.leer,.terminos a,.info2, .ubicacion,.botonfixed a {
 li a, input,.info,.title2,textarea{
 		color: #232323;
 }
-body,footer,.form,.leerbox,.card2,.card3{
+body,footer,.form,.leerbox,.card2{
 		background-color: #8B368C
 }
 .card, input,.fondoclaro,textarea{
@@ -47,14 +47,14 @@ nav,.formulario,.botonfixed,.imgtipos,.imgtipos2,.imgtipos3,.imgtipos4,.imgtipos
 		border-radius: 56px;
 }
 
-.card,.form,.title2,.card2,.info2,.card3{
+.card,.form,.title2,.card2,.info2{
 		flex-direction: column;
 		justify-content: center;
 }
-.card, nav,.formulario,form,.form,.ayuda,.leer,.botonfixed,.cards,.footer,.terminos,.footer2,.card2,.info2,.card3,section,.desplegable,.flexcontainer,.sectionqev,.sectionqev2 {
+.card, nav,.formulario,form,.form,.ayuda,.leer,.botonfixed,.cards,.footer,.terminos,.footer2,.card2,.info2,section,.desplegable,.flexcontainer,.sectionqev,.sectionqev2 {
 		display: flex;
 }
-.card,.ong,.contactate,.title,.title2,.card2,.info2,.card3,article h2,article ul,.subqev,.a,.b,.c,.sectionqev2{
+.card,.ong,.contactate,.title,.title2,.card2,.info2,article h2,article ul,.subqev,.a,.b,.c,.sectionqev2{
 		text-align: center;
 }
 
@@ -66,7 +66,7 @@ nav,.formulario,.botonfixed,.imgtipos,.imgtipos2,.imgtipos3,.imgtipos4,.imgtipos
 li a{
 		font-weight: 700;
 		font-size: 1.1em;
-		padding: 3em;
+		padding: 48px;
 	
 }
 nav ul li {
@@ -78,19 +78,20 @@ body {
 		margin: 0px; 
 }
 
-.ong{	margin: 3em 16em 2em 16em;
+.ong{	margin: 48px 236px 32px 236px;
 		font-size:1.5em;
 		font-weight: 600;
+		width: 47%;
 	
 }
 .card {
-		height: 21em;
-		width: 23em; 
+		height: 336px;
+		width: 368px;; 
 		align-items: center;
-		margin: 1em 1em 5em 1em;
+		margin: 16px 16px 80px 16px;
 }
 .formulario{
-		height: 60em;
+		height: 960px;
 		width: 100%;
 		justify-content: space-around;
 		align-content: center;
@@ -102,57 +103,55 @@ form{
 	align-content: center;
 }
 .form{	
-		margin-top: 5em;
-		margin-bottom: 5em;
-		padding-top:2em;
+		margin-top: 80px;
+		margin-bottom: 80px;
+		padding-top:32px;
 		align-items: center;
-		height: 50em;
-		width: 40em; 
-		border-radius: 4em;
+		height: 800px;
+		width: 640px;; 
+		border-radius: 64px;
 }
 
-input,textarea{
-		font-family: Montserrat;
-		margin: 0.5em;
-		height: 3.5em;
-		width:30em;
+input,textarea{ 
+		margin: 8px;;
+		height: 56px;;
+		width:480px;
 		font-size: 1em;
 		font-weight: 500;
 		border: none;
-		padding-left: 2em;
-		border-radius: 3em;
+		padding-left: 32px;
+		border-radius: 48px;
 
 }
 #Mensaje {
-		height:20em;
-		width: 38em;
+		height:320px;
+		width: 608px;
 }
 #enviar{
-		padding: 0;
-		margin-left: 10em;
-		margin-bottom: 4em;
-		width: 12em;
+		padding: 0px;
+		margin: 0px 0px 64px 160px;
+		width: 192px;
 }
 .ayuda{
 		align-items: flex-end;
 		justify-content: flex-end;
-		margin-right: 2em;
+		margin-right: 32px;
 }
 .botonfixed {
-		margin-right: 2em;
-		margin-top:1em;
+		margin-right: 52px;
+		margin-top:98px;
 		font-size: 1.25em;
 		font-weight: 600;
-		width: 10em;
-		height: 3em;
+		width: 190px;
+		height: 63px;
 		align-items: center;
-		padding-left: 3em;
-		border-radius: 23em;
+		padding-left: 48px;
+		border-radius: 368px;
 		border-color: #C6A000;
-		border-width: 0.07em;
+		border-width: 1.12px;
 		border-style: solid;
 		position: fixed;
-		top: 20em;
+		top: 320px;
 		box-shadow: 2px 2px 4px #C6A000;
 		
 }
@@ -167,9 +166,9 @@ input,textarea{
 }
 
 .leerbox{
-		width: 10em;
-		height: 3em;
-		border-radius: 5em;
+		width: 160px;
+		height: 48px;
+		border-radius: 80px;
 		display:flex;
 		justify-content: center;
 		align-items: center;
@@ -181,14 +180,13 @@ input,textarea{
 
 .leer{ 
 		font-size: 1.2em;
-		padding: 1em;
+		padding: 16px;
 		align-content: center;
 }
 
 .cards {
 		justify-content: space-around;
-		margin-left: 10em;
-		margin-right: 10em;
+		margin: 0px 160px 0px 160px;
 		width: 60%;
 }
 .width-30{
@@ -212,17 +210,17 @@ input,textarea{
 	left: 0px;
 	z-index: 10;
 }
-footer{
-		margin:0;
-		padding: 1.5em 3em 0 3em;
-		height:8em;
+footer{;
+		margin:0px;
+		padding: 24px 48px 0 48px;
+		height:128px;
 }
 .footer {
 		justify-content:space-between;
 }
 
 .footer2 {
-		margin-top: 0.313em; 
+		margin-top: 5.008px; 
 		justify-content: flex-end;
 		
 }
@@ -234,27 +232,27 @@ footer{
 }
 
 .espacio3{
-		margin-top: 15em;
+		margin-top: 240px;
 }
 
 .card2{
-		height: 18em;
-		width: 15em;
+		height: 288px;
+		width: 240px;
 		border-radius: 45px;
 		align-items: center;
-		margin: 1em;
-		margin-bottom: 1em;
-		z-index: 20;
+		margin: 16px;
+		margin-bottom: 16px;
 
 }
 .info3,.info2{
-		margin: 1em 2em 2em
+		margin: 16px 32px 32px;
 }
 .info2{
-		width: 8em;
+		width: 128px;
 }
 .info3{
-		width: 11em;
+		width: 196px;
+
 }
 
 section{
@@ -263,10 +261,10 @@ section{
 }
 
 .espacio{
-		margin: 5.5em 0em 1em 0em;
+		margin: 88px 0px 16px 0px;
 }
 .espacio2{
-		margin: 3.5em 0em 15em 0em;; 
+		margin: 56px 0px 240px 0px;; 
 }
 
 .textura{
@@ -284,7 +282,7 @@ section{
 		border-radius: 20px;
 }
 .fondo{ 
-		height:49em;
+		height:784px;
 }
 
 .imgtipos {
@@ -399,7 +397,7 @@ article ul {;
 		margin-left: 20%;
 }
 .frase {background-image: url("imagenes/fondoindex.jpg");
-		height: 28.5em;}
+		height: 456px;}
 
 .par1 {
 		display: flex;
@@ -491,18 +489,17 @@ article ul {;
 
 /*estilo card desplegable*/
 .label-desplegable { 
-	margin-top: 1em;
-	margin-right: 1em;
+	margin-top: 16px;
+	margin-right: 16px;
 	display: block;
 	font-weight: 700;
 	font-family: montserrat;
 	font-size: 1.5 em;
 	text-align: center;
 	justify-content: center;
-	width: 15em;
-	height: 3em;
-	padding-bottom: 5em;
-	padding-top:5em; 
+	width: 240px;
+	height: 48px;
+	padding: 80px 0px 80px;
 	color: #FEEB15;
 	background: #8B368C;
 	cursor: pointer;
@@ -516,7 +513,7 @@ article ul {;
 	font-family: montserrat;
 	font-size: 0.8rem;
  	border-bottom: 1px solid rgba(250, 224, 66, .45);
-	width: 16.25em;
+	width: 260px;
  	border-bottom-left-radius: 45px;
  	border-bottom-right-radius: 45px;
 	text-align:center;
@@ -600,23 +597,23 @@ label img {
 }
 /*contenido*/
 .overlay {
-position: fixed;
- 	top:1.5em;
-  	right: 2.2em;
- 	width: 15em;
-	height: 22em;
-	padding:1em;
-	border-radius: 3em;
-  	opacity:100;
-  	transition: .1s ease-in;
-  	background-color: #FACF00;
-	display: none;
-	text-align: center;
-	border-color: #C6A000;
-	border-width: 0.07em;
-	border-style: solid;
-	justify-content: space-around;
-	z-index: 20;
+		position: fixed;
+		top:24px;
+		right: 35.2px;
+		width: 240px;
+		height: 352px;	
+		padding: 16px;
+		border-radius: 3em;
+		opacity:100;
+		transition: .1s ease-in;
+		background-color: #FACF00;
+		display: none;
+		text-align: center;
+		border-color: #C6A000;
+		border-width: 1.12px;
+		border-style: solid;
+		justify-content: space-around;
+	  z-index: 20;
 
 }
 
@@ -624,7 +621,6 @@ position: fixed;
 #overlay:checked + .botonfixed + .overlay{
 	display: block;
     opacity: 100;
-	
 }
 
 
