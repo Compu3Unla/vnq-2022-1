@@ -408,33 +408,31 @@ article ul {;
 	margin-top: 1em;
 	margin-right: 1em;
 	display: block;
-
-  font-weight: bold;
-  font-family: montserrat;
-  font-size: 1em;
-  text-transform: uppercase;
-  text-align: center;
+	font-weight: bold;
+	font-family: montserrat;
+	font-size: 1em;
+	text-align: center;
 	justify-content: center;
 	width: 15em;
 	height: 3em;
-  padding-bottom: 5em;
+	padding-bottom: 5em;
 	padding-top:5em; 
-  color: #FEEB15;
-  background: #8B368C;
-  cursor: pointer;
-  border-radius: 20px;
-  transition: all 0.1s ease-out;
+	color: #FEEB15;
+	background: #8B368C;
+	cursor: pointer;
+	border-radius: 20px;
+	transition: all 0.1s ease-out;
 }
 /*estilo contenido desplegable*/
 .collapsible-content .content-inner {
 	color: #FEEB15;
- 	 background: #8B368C;
+ 	background: #8B368C;
 	font-family: montserrat;
-		font-size: 0.8rem;
- 	 border-bottom: 1px solid rgba(250, 224, 66, .45);
+	font-size: 0.8rem;
+ 	border-bottom: 1px solid rgba(250, 224, 66, .45);
 	width: 16.25em;
- 	 border-bottom-left-radius: 20px;
- 	 border-bottom-right-radius: 20px;
+ 	border-bottom-left-radius: 20px;
+ 	border-bottom-right-radius: 20px;
   	padding: .5rem 1rem;
 	padding-bottom: 2em;
 	
@@ -443,25 +441,20 @@ article ul {;
   color: #FEEB15;
 }
 .label-desplegable::before {
-  content: ' ';
-  display: inline-block;
-
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 5px solid currentColor;
-
-  vertical-align: middle;
-  margin-right: .7rem;
-  transform: translateY(-2px);
-
-  transition: transform .05s ease-out;
+	  display: inline-block;
+	  border-top: 5px solid transparent;
+	  border-bottom: 5px solid transparent;
+	  border-left: 5px solid currentColor;
+	  vertical-align: middle;
+	  margin-right: .7rem;
+	  transform: translateY(-2px);
+	  transition: transform .05s ease-out;
 }
 
 .collapsible-content {
-  max-height: 0px;
-  overflow: hidden;
-
-  transition: max-height .05s ease-in-out;
+	  max-height: 0px;
+	  overflow: hidden;
+	  transition: max-height .05s ease-in-out;
 }
 .desplegable:checked + .label-desplegable + .collapsible-content {
   max-height: 100vh;
@@ -471,8 +464,8 @@ article ul {;
 }
 
 .desplegable:checked + .label-desplegable {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	  border-bottom-left-radius: 0;
 }
 .desplegable{
 	display: none;
