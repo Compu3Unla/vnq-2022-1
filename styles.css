@@ -341,6 +341,10 @@ article ul {;
 		position: relative;
 		top: 33px;
 }
+.texto{
+		position: relative;
+		top:38px;
+}
 .frases {
 		position: relative;
 		bottom: 160px;
@@ -349,10 +353,14 @@ article ul {;
 }
 
 .subqev {
-		padding: 0% 30% 0% 30%;
 		font-size: 40px;
-		margin: 100px 0px 70px;
+		margin: 140px 0px 70px;
+		position: relative;
+		left: 323px;
+		padding-top: 60px;
+		width: 53%;
 }
+
 .a,.b,.c,.pblanco{
 		color:#FFE9F6;
 }
