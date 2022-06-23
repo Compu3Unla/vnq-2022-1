@@ -314,12 +314,14 @@ article ul {;
 		margin-left: 15em;
 }
 .qeslav {
-		padding: 0% 30% 0% 30%;
-		font-size:70px;
-		color: white;
-		margin-top: 50px;
+		position: relative;
+		bottom: 160px;
+		left:367px;
+		top:0px;
 }
-
+.h2alt{
+		font-size:50px;
+}
 .subqev {
 		padding: 0% 30% 0% 30%;
 		font-size: 40px;
