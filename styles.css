@@ -354,7 +354,8 @@ article ul {;
 .sectionqev2 article {
 	width: 50%;
 }
-.frase {background-image: url("imagenes/fondoindex.jpg")}
+.frase {background-image: url("imagenes/fondoindex.jpg");
+		height: 32.5em;}
 #mancha{
 	width: 920px;
 	height: 593px;
