@@ -484,3 +484,7 @@ label img {
 	width:50px;
 	height:35px;
 }
+#centrosayuda{
+	display:flex;
+	flex-direction:column;
+}
