@@ -61,10 +61,6 @@ nav,.formulario,.botonfixed,.imgtipos,.imgtipos2,.imgtipos3,.imgtipos4,.imgtipos
 		bottom: 38px;
 }
 
-.espacio4{
-		position: relative;
-		top:10px;
-}
 li a{
 		font-weight: 700;
 		font-size: 1.1em;
@@ -145,12 +141,12 @@ input{
 		align-items: center;
 		padding-left: 3em;
 		border-radius: 23em;
-		border-color: #8A378B;
+		border-color: #C6A000;
 		border-width: 0.07em;
 		border-style: solid;
 		position: fixed;
 		top: 25em;
-		box-shadow: 2px 2px 4px #8A378B;
+		box-shadow: 2px 2px 4px #C6A000;
 		
 }
 
