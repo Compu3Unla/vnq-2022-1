@@ -17,7 +17,7 @@ nav a:hover,article h2{
 h2,h3,p,li,article ul,.botonfixed {
 		font-family: montserrat;
 }
-a, .contactate,footer,.ong,.consejos {
+a, .contactate,footer,.ong,.consejos,.consejos2 {
 		color: #FFE9F6;
 }
 li a, article ul{
@@ -327,6 +327,9 @@ article ul {;
 		width: 70%;
 		margin-left: 15em;
 }
+.h2alt{
+		color:#FACF00;
+}
 .frases {
 		position: relative;
 		bottom: 160px;
@@ -377,6 +380,46 @@ article ul {;
 }
 .frase {background-image: url("imagenes/fondoindex.jpg");
 		height: 28.5em;}
+
+.par1 {
+		display: flex;
+		align-items: center;
+		margin: 0px auto;
+}
+.par2{
+		display: flex;
+		align-items: center;
+		width: 1200px;
+		margin: 0px auto;
+}
+.par3 {
+		display: flex;
+		align-items: center;
+		width: 1300px;
+		margin-top: 20px;
+		margin-bottom: 40%;
+}
+.flexend1{
+		display: flex;
+		align-items: center;
+		margin-left: 100px;
+}
+.flexend2 {
+		display: flex;
+		align-items: center;
+		margin-left:500px;
+}
+.flexend3 {
+		display: flex;
+		align-items: center;
+		margin-left: 600px;
+}
+#imagengrande{
+		position: absolute;
+		margin-top: 12%;
+		margin-left: 55px;
+}
+
 #mancha{
 	width: 920px;
 	height: 593px;
@@ -500,7 +543,13 @@ article ul {;
 }
 .consejos{
 		font-size: 1.25em;
+		width: 190px;
+		text-align: right;
+}
+.consejos2 {
+		font-size: 1.25em;
 		width: 157px;
+		text-align: left;
 }
 label img {
 	width:50px;
