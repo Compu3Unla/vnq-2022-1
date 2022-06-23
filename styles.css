@@ -301,9 +301,6 @@ section{
 		display:block;
 		margin: 0px auto;
 }
-.h2alt {
-	color: #FACF00;
-}
 
 article ul {;
 		padding-left:3px;
@@ -363,9 +360,6 @@ article ul {;
 	justify-content: center;
 	width: 90%;
 	align-content: space-around;
-}
-h2 ul li{
-		padding: 50px 0px 50px;
 }
 .sectionqev2 article {
 	width: 50%;
