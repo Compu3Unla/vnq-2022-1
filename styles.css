@@ -155,6 +155,11 @@ input{
 		font-size: 1.5em;
 		font-weight: 500;
 }
+.contactate2{
+		position: relative;
+		bottom: 17px;
+}
+
 .leerbox{
 		width: 10em;
 		height: 3em;
@@ -162,6 +167,10 @@ input{
 		display:flex;
 		justify-content: center;
 		align-items: center;
+}
+.position3{
+		position: relative;
+		top:14px; 
 }
 
 .leer{ 
