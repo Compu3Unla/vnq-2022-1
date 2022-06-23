@@ -415,7 +415,7 @@ article ul {;
 	display: block;
 	font-weight: 700;
 	font-family: montserrat;
-	font-size: 1em;
+	font-size: 1.5 em;
 	text-align: center;
 	justify-content: center;
 	width: 15em;
@@ -482,4 +482,13 @@ article ul {;
 .consejos{
 		font-size: 1.25em;
 		width: 157px;
+}
+label img {
+	width:50px;
+	height:35px;
+}
+#centrosayuda{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
 }
