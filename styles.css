@@ -481,3 +481,7 @@ article ul {;
 	display: flex;
 	flex-direction: row;
 }
+label img {
+	width:50px;
+	height:35px;
+}
