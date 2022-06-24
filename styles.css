@@ -100,7 +100,7 @@ body {
 
 form{
 	flex-direction: column;
-	align-content: center;
+	align-items: center;
 }
 .form{	
 		margin-top: 80px;
@@ -121,15 +121,28 @@ input{
 		border: none;
 		padding-left: 32px;
 		border-radius: 48px;
-
+		font-family: Montserrat;
 }
-#Mensaje {
+
+textarea {
+	font-family: Montserrat !important;
+    font-weight: 500;
+    color: #232323 !important;
+}
+
+
+.formulario input{
+	width: 100%;
+}
+
+#mensaje {
 		height:320px;
-		width: 608px;
+		width: 100%;
+		padding: 20px;
+		margin: 5px 0px 10px 0px;
 }
 #enviar{
 		padding: 0px;
-		margin: 0px 0px 64px 160px;
 		width: 192px;
 }
 .ayuda{
@@ -200,9 +213,11 @@ input{
 }
 
 .imagen1{
-		position: absolute;
-		top: 687px;
 		right: 0px;
+		position: relative;
+		z-index: 0;
+		left: 1509px;
+		bottom: -5px;
 }
 .imagen2{
 	position: absolute;
@@ -210,7 +225,7 @@ input{
 	left: 0px;
 	z-index: 10;
 }
-footer{;
+footer{
 		margin:0px;
 		padding: 24px 48px 0 48px;
 		height:128px;
@@ -262,9 +277,11 @@ section{
 
 .espacio{
 		margin: 88px 0px 16px 0px;
+		z-index: 10;
 }
 .espacio2{
 		margin: 56px 0px 240px 0px; 
+		z-index: 10;
 }
 
 .textura{
@@ -323,7 +340,7 @@ section{
 		margin: 0px auto;
 }
 
-article ul {;
+article ul {
 		padding-left:3px;
 }
 .footeralt {
@@ -448,18 +465,24 @@ article ul {;
 }
 
 #mancha{
-	width: 920px;
-	height: 593px;
+	width: 60% !important;
+	height: auto;
 	animation-name: slidein;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-play-state: running;
 	animation-direction: normal;
 	animation-timing-function: linear;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat !important;
 	position: relative;
-	bottom: 74px;
+	bottom: 195px;
 	z-index:1;
+}
+
+#mancha img{
+	position: relative;
+	top: 113px !important;
+    left: 150px !important;
 }
 
 @keyframes slidein{
@@ -522,7 +545,7 @@ article ul {;
 	font-family: montserrat;
 	font-size: 0.8rem;
  	border-bottom: 1px solid rgba(250, 224, 66, .45);
-	width: 260px;
+	width: 209px;
  	border-bottom-left-radius: 45px;
  	border-bottom-right-radius: 45px;
 	text-align:center;
@@ -631,3 +654,6 @@ label img {
 }
 
 
+.wrap-collapsible{
+	width: 240px;
+}
