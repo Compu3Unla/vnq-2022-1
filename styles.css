@@ -613,7 +613,7 @@ label img {
 		justify-content: space-around;
 		z-index: 20;
 }
-
+		
 /* accion efecto */
 #overlay:checked + .botonfixed + .overlay{
 	display: block;
@@ -623,13 +623,15 @@ label img {
 .wrap-collapsible{
 	width: 240px;
 }
+	.menuhamburguesa, #menuhamburguesa{display: none}
+
 @media screen and (max-width: 600px) {
-	nav ul li{
+	#navcompu{
 		display: none;
 	}
 
 	nav{
-		justify-content: center;
+		justify-content: space-between;
 	}
 	.ong{
 		margin: 10%;
@@ -640,7 +642,7 @@ label img {
 
 	.form{
 		width: 80%;
-		height: 60%;	
+		height: 65%;	
 		align-content: center;
 		padding: 25px;
 		padding-top:50px;
@@ -657,8 +659,8 @@ label img {
 			flex-direction: column;
 	}
 	.card{
-		width: 80%;
-		height: 50%
+		width: 100%;
+		height: 300px;
 	}
 	.fuerzamujeres{
 		width: 500px;
@@ -672,6 +674,87 @@ label img {
 		width: 500px;
 		height: 400px;
 	}
+	.imagen2,.imagen1{
+		display: none;
+	}
+	
+	.label-menu { 
+	
+	transition: all 0.1s ease-out;
+}
+/*estilo contenido menu*/
+.content .contentinner {
+	color: #232323;
+	display: flex;
+	flex-direction: column;
+	background: #FACF00;
+	font-size: 0.8em;
+	width: 209px;
+	height: 180px;
+	text-align:left;
+	margin-left: 0px;
+	list-style: none;
+	
+}
+.label-menu:hover {
+		color: #FEEB15;
+}
+.label-menu::before {
+		display: inline-block;
+		border-top: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+		border-left: 5px solid currentColor;
+		vertical-align: middle;
+		transform: translateY(-2px);
+		transition: transform .05s ease-out;
+}
+
+.content {
+		max-height: 0px;
+		overflow: hidden;
+		transition: max-height .05s ease-in-out;
+}
+.desplegable:checked + .label-menu + .content {
+		max-height: 100vh;
+}
+.desplegable:checked + .label-menu::before {
+		transform: rotate(90deg) translateX(-3px);
+}
+
+.desplegable:checked + .label-menu {
+		border-bottom-right-radius: 0;
+		border-bottom-left-radius: 0;
+}
+
+
+.collapsible-content {
+		max-height: 0px;
+		overflow: hidden;
+		transition: max-height .05s ease-in-out;
+}
+
+	.menuhamburguesa {
+		display: block;
+		margin-left: 0px;
+		margin-right: auto;
+		margin-top:10px;
+	}
+	.menulogo{margin-left:10px;}
+	
+	.ong, .title, .title2 {
+	
+		width: 85%;
+	}
+	.footer,.terminos {display: none;
+	}
+	footer{
+		height: 50px;
+	}
+	.logo{margin-right: 10px}
+	.espacio2{
+		margin-bottom: 100px;
+	}
+
 }
 
 
