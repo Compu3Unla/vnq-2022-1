@@ -688,12 +688,16 @@ label img {
 	display: flex;
 	flex-direction: column;
 	background: #FACF00;
+	justify-content: space-around;
 	font-size: 0.8em;
-	width: 209px;
+	width: 200px;
 	height: 180px;
 	text-align:left;
 	margin-left: 0px;
+	margin-right: auto;
 	list-style: none;
+	position: absolute;
+	top:80px;
 	
 }
 .label-menu:hover {
@@ -754,7 +758,8 @@ label img {
 	.espacio2{
 		margin-bottom: 100px;
 	}
-
+	li a {padding: 10px;
+	}
 }
 
 
