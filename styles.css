@@ -661,18 +661,8 @@ label img {
 		width: 100%;
 		height: 300px;
 	}
-	.fuerzamujeres{
-		width: 500px ;
-		height: 200px;
-	}
-	.frase{
-		width: 100%;
-		height: 200px;
-	}
-	#mancha{
-		width: 500px;
-		height: 400px;
-		
+
+	#mancha, .frase,.fuerzamujeres {display: none}
 	}
 	
 	.imagen2,.imagen1{
