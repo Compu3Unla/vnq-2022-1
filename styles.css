@@ -654,7 +654,6 @@ label img {
 
 	}
 	
-	
 	.cards,.cards2,.flex,.espacio,.espacio3{
 			flex-direction: column;
 	}
@@ -672,6 +671,3 @@ label img {
 		height: 400px;
 	}
 }
-
-
-
