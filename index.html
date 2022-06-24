@@ -6,6 +6,7 @@
 <link href="https: //fonts.googleapis.com/css2? familia= Abierto+Sans:peso@400;500;700 & display=swap" rel="stylesheet">
 <link tyle="text/css" rel="stylesheet" href="styles.css">
 <link rel="icon" href="imagenes/favicon.ico"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -20,7 +21,7 @@
 	</header>
 	<main>
 		<section class="frase">
-			<div id="mancha"><img src="imagenes/frase.svg" alt="la fuerza de las mujeres es el futuro de todas" height="950px" width="1000px"> </div>
+			<div id="mancha"><img class="fuerzamujeres" src="imagenes/frase.svg" alt="la fuerza de las mujeres es el futuro de todas" height="950px" width="1000px"> </div>
 		</section>
 		<section class="textura">
 			<p class="ong">Somos una ONG que busca informar, educar, conectar a mujeres en situación de violencia de género o familiares de personas en esta posición.</p>
@@ -28,7 +29,7 @@
 			<section id="conteiner" class="ayuda textura">
 		<input id="overlay" class="pedirayuda" type="checkbox">	
 		<label for="overlay" class="botonfixed">PEDIR AYUDA</label>
-		  <div class="overlay">
+		<div class="overlay">
 			<article>
 				<h2>Ayuda Inmediata las 24hs</h2>
 				<h3>Número de teléfoto</h3>
@@ -38,10 +39,9 @@
 				<h3>Email</h3>
 				<p>linea144@mingeneros.gob.ar</p>
 			 </article>
-		  </div>
+		</div>
 	</section>
-
-		<section class="textura">
+	<section class="textura">
 			<h2 class= "title">Encontrá información sobre</h2>
 			<div class="cards">
 				<article class="card">
@@ -50,7 +50,7 @@
 				</article>
 				<article class="card">
 					<h3 class="info">Tipos de violencia</h3>
-					<p class="leerbox"> <a class="leer"  href="tipos-de-violencia.html"> Leer más </a> </p>
+					<p class="leerbox position3"> <a class="leer"  href="tipos-de-violencia.html"> Leer más </a> </p>
 				</article>
 				<article class="card">
 					<h3 class="info">¿Comó podemos darnos cuenta?</h3>
@@ -61,11 +61,11 @@
 		<section class="formulario">
 			<div class="form">
 				<h3 class="contactate">¿Te interesa sumarte al compromiso?</h3>
-				<p class="contactate">Contactate con nosotras</p>
+				<p class="contactate contactate2">Contactate con nosotras</p>
 				<form method="post" action="" target="_blank" enctype="text/plain">
 					<input type="text" name="Nombre" id="Nombre" maxlength="50" placeholder="Nombre completo" required>
 					<input type="email" name="Email" id="email" maxlength="50" placeholder="Email" required>
-					<input type="text" name="Mensaje" id="Mensaje" maxlength="500" placeholder="Escribe un mensaje">
+					<textarea type="text" name="mensaje" id="mensaje" rows="4" cols="50">Escribe un mensaje</textarea>
 					<input type="submit" name="Enviar" id="enviar">
 				</form>
 			</div>
@@ -75,15 +75,15 @@
 		<div class="footer">
 			<p class="margin-right"> Copyright © 2022 VNQ, todos los derechos reservados</p>
 		<div class="terminos">
-			<p> <a href="contactosutiles.html"> Privacidad </a> </p>
-			<p> <a href="contactosutiles.html"> | Términos y condiciones </a> |</p>
-			<p> <a href="contactosutiles.html">Aviso legal </a> </p>
+			<p> <a href="index.html"> Privacidad </a> </p>
+			<p> <a href="index.html"> | Términos y condiciones </a> |</p>
+			<p> <a href="index.html">Aviso legal </a> </p>
 		</div>
 		</div>
 		<div class="footer2">
-			<a href="https://www.instagram.com/"> <img src="imagenes/instagram.svg" alt="instagram" width="42px" heigt="42px"/> </a>
-			<a href="https://www.facebook.com/"> <img src="imagenes/facebook.svg" alt="facebook" width="30px" heigt="30px"/> </a>
-			<a href="https://www.youtube.com/"> <img src="imagenes/youtube.svg" alt="youtube" width="35px" heigt="35px"/> </a>
+			<a target="_blank" href="https://www.instagram.com/"> <img src="imagenes/instagram.svg" alt="instagram" width="42px" heigt="42px"/> </a>
+			<a target="_blank" href="https://www.facebook.com/"> <img src="imagenes/facebook.svg" alt="facebook" width="30px" heigt="30px"/> </a>
+			<a target="_blank" href="https://www.youtube.com/"> <img src="imagenes/youtube.svg" alt="youtube" width="35px" heigt="35px"/> </a>
 		</div>
 	</footer>
 </body>
