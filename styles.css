@@ -624,12 +624,23 @@ label img {
 	width: 240px;
 }
 	.menuhamburguesa, #menuhamburguesa{display: none}
-
+.mobile{
+		display: none;
+}
+.desktop{
+		display: inline;
+}
 @media screen and (max-width: 600px) {
 	.navcompu{
 		display: none;
 	}
-
+	.mobile{
+		display: inline;
+	}
+	.desktop{
+		display: none;
+	}
+	
 	nav{
 		justify-content: space-between;
 	}
