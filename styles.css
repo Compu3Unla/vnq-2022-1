@@ -101,6 +101,7 @@ body {
 form{
 	flex-direction: column;
 	align-items: center;
+	width: 80%;
 }
 .form{	
 		margin-top: 80px;
@@ -216,7 +217,7 @@ textarea {
 		right: 0px;
 		position: relative;
 		z-index: 0;
-		left: 1509px;
+		left: 1126px;
 		bottom: -5px;
 }
 .imagen2{
@@ -280,7 +281,7 @@ section{
 		z-index: 10;
 }
 .espacio2{
-		margin: 56px 0px 240px 0px; 
+		margin-top: 56px; 
 		z-index: 10;
 }
 
@@ -465,7 +466,7 @@ article ul {
 }
 
 #mancha{
-	width: 60% !important;
+	width: 72% !important;
 	height: auto;
 	animation-name: slidein;
 	animation-duration: 2s;
@@ -481,8 +482,8 @@ article ul {
 
 #mancha img{
 	position: relative;
-	top: 113px !important;
-    left: 150px !important;
+	top: 93px !important;
+	left: 136px !important;
 }
 
 @keyframes slidein{
