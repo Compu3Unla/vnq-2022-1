@@ -10,6 +10,7 @@ nav,.ubicacion,.contactate2,.position3,.imagen1,.h2alt,.texto,.subqev,.frases,#m
 		position: relative;
 }
 
+
 nav a:hover,article h2{
 		color: #8B368C; 
 }
@@ -53,7 +54,7 @@ nav,.formulario,.botonfixed,.imgtipos,.imgtipos2,.imgtipos3,.imgtipos4,.imgtipos
 		flex-direction: column;
 		justify-content: center;
 }
-.card, nav,.formulario,form,.form,.ayuda,.leer,.botonfixed,.cards,.footer,.terminos,.footer2,.card2,.info2,section,.desplegable,.flexcontainer,.sectionqev,.sectionqev2,.leerbox,#centrosayuda{
+.card, nav,.formulario,form,.form,.ayuda,.leer,.botonfixed,.cards,.footer,.terminos,.footer2,.card2,.info2,section,.desplegable,.flexcontainer,.sectionqev,.sectionqev2,.leerbox,#centrosayuda,.flex,.flexend3,.flexend2,.flexend1,.par3,.par2,.par1 {
 		display: flex;
 }
 .card,.ong,.contactate,.title,.title2,.card2,.info2,article h2,article ul,.subqev,.a,.b,.c,.sectionqev2{
@@ -203,7 +204,6 @@ textarea {
 		direction: flex;
 		font-size: 1.8em;
 		font-weight: 500;
-	
 }
 
 .imagen1{
@@ -212,8 +212,10 @@ textarea {
 		left: 1126px;
 		bottom: -5px;
 }
+.imagen2,.sectionqev2 article img,#imagengrande {
+		position: absolute;
+}
 .imagen2{
-	position: absolute;
 	top: 570px;
 	left: 0px;
 	z-index: 10;
@@ -406,41 +408,33 @@ article ul {
 		align-content: flex-start;
 }
 .sectionqev2 article img {
-		position: absolute;
 		margin-left: 20%;
 }
 .frase {background-image: url("imagenes/fondoindex.jpg");
 		height: 456px;}
 
 .par1 {
-		display: flex;
 		margin: 0px auto;
 }
 .par2{
-		display: flex;
 		width: 1200px;
 		margin: 0px auto;
 }
 .par3 {
-		display: flex;
 		width: 1300px;
 		margin-top: 20px;
 		margin-bottom: 40%;
 }
 .flexend1{
-		display: flex;
 		margin-left: 100px;
 }
 .flexend2 {
-		display: flex;
 		margin-left:500px;
 }
 .flexend3 {
-		display: flex;
 		margin-left: 600px;
 }
-#imagengrande{
-		position: absolute;
+#imagengrande{;
 		margin-top: 12%;
 		margin-left: 55px;
 }
@@ -494,8 +488,8 @@ article ul {
 	}
 	100%{
 		background: url("imagenes/animacion/2.svg")
-	}
-	}
+}
+}
 /*deplegable*/
 
 /*estilo card desplegable*/
@@ -563,7 +557,6 @@ article ul {
 		display: none;
 }
 .flex{
-		display: flex;
 		flex-direction: row;
 }
 .consejos,.consejos2{
