@@ -626,7 +626,7 @@ label img {
 	.menuhamburguesa, #menuhamburguesa{display: none}
 
 @media screen and (max-width: 600px) {
-	#navcompu{
+	.navcompu{
 		display: none;
 	}
 
@@ -699,11 +699,12 @@ label img {
 	width: 200px;
 	height: 180px;
 	text-align:left;
+	padding: 20px;
 	margin-left: 0px;
 	margin-right: auto;
 	list-style: none;
-	position: absolute;
-	top:80px;
+	position: relative;
+	top:20px;
 	
 }
 .label-menu:hover {
