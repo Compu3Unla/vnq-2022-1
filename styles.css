@@ -530,4 +530,53 @@ display: none;
    opacity: 100;
 }
 
+@media screen and (max-width: 600px) {
+	nav ul li{
+		display: none;
+	}
+
+	nav{
+		justify-content: center;
+	}
+	.ong{
+		margin: 10%;
+	}
+	.cards{
+		margin: 5%;
+		width: 80%;
+		align-items: center;
+	}
+
+	.form{
+		width: 80%;
+		height: 60%;	
+		align-content: center;
+		padding: 25px;
+		padding-top:50px;
+	}
+	input{
+		width: 85%;
+		height: 10%;
+		justify-content: center;
+
+	}
+	
+	
+	.cards,.cards2,.flex,.espacio,.espacio3{
+			flex-direction: column;
+	}
+	
+	.fuerzamujeres{
+		width: 500px;
+		height: 200px;
+	}
+	.frase{
+		width: 100%;
+		height: 200px;
+	}
+	#mancha{
+		width: 500px;
+		height: 400px;
+	}
+}
 
