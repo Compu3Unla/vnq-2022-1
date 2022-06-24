@@ -624,17 +624,9 @@ label img {
 	width: 240px;
 }
 	.menuhamburguesa, #menuhamburguesa{display: none}
-<<<<<<< HEAD
-.mobile{
-		display: none;
-}
-.desktop{
-		display: inline;
-}
-=======
+
 .fraseresponsive{display: none}
 
->>>>>>> origin/main
 @media screen and (max-width: 600px) {
 	.navcompu{
 		display: none;
