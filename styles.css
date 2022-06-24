@@ -624,12 +624,17 @@ label img {
 	width: 240px;
 }
 	.menuhamburguesa, #menuhamburguesa{display: none}
+<<<<<<< HEAD
 .mobile{
 		display: none;
 }
 .desktop{
 		display: inline;
 }
+=======
+.fraseresponsive{display: none}
+
+>>>>>>> origin/main
 @media screen and (max-width: 600px) {
 	.navcompu{
 		display: none;
@@ -674,7 +679,7 @@ label img {
 	}
 
 	#mancha, .frase,.fuerzamujeres {display: none}
-	}
+
 	
 	.imagen2,.imagen1{
 		display: none;
@@ -766,3 +771,8 @@ label img {
 	}
 	li a {padding: 10px;
 	}
+	.fraseresponsive{display: block}
+}
+
+
+
