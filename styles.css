@@ -661,7 +661,22 @@ label img {
 		width: 100%;
 		height: 300px;
 	}
+<<<<<<< HEAD
 	#mancha, .frase,.fuerzamujeres {display: none}
+=======
+	.fuerzamujeres{
+		width: 500px ;
+		height: 200px;
+	}
+	.frase{
+		width: 100%;
+		height: 200px;
+	}
+	#mancha{
+		width: 500px;
+		height: 400px;
+		
+>>>>>>> origin/main
 	}
 	
 	.imagen2,.imagen1{
