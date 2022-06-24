@@ -674,11 +674,6 @@ label img {
 		height: 400px;
 		
 	}
-	#mancha img{
-	position: relative;
-	top: 50px !important;
-	left: 50px !important;
-	}
 	
 	.imagen2,.imagen1{
 		display: none;
