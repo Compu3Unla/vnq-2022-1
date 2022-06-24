@@ -206,18 +206,20 @@ textarea {
 }
 
 .imagen1{
-		right: 0px;
-		z-index: 0;
-		left: 1126px;
-		bottom: -5px;
+
+	display: flex;
+	margin-right: 0px;
+	margin-left: auto;
+		
 }
-.imagen2,.sectionqev2 article img,#imagengrande {
+.sectionqev2 article img,#imagengrande {
 		position: absolute;
 }
 .imagen2{
-	top: 570px;
-	left: 0px;
-	z-index: 10;
+	display: flex;
+	margin-left:0px;
+	margin-right: auto;
+		
 }
 footer{
 		margin:0px;
@@ -290,9 +292,7 @@ section{
 .imagengaleria {
 		border-radius: 20px;
 }
-.fondo{ 
-		height:784px;
-}
+
 
 .imgtipos {
 		border-radius: 50%;
@@ -635,8 +635,6 @@ label img {
 		margin: 10%;
 	}
 	.cards{
-		margin: 5%;
-		width: 80%;
 		align-items: center;
 	}
 
@@ -658,7 +656,10 @@ label img {
 	.cards,.cards2,.flex,.espacio,.espacio3{
 			flex-direction: column;
 	}
-	
+	.card{
+		width: 80%;
+		height: 50%
+	}
 	.fuerzamujeres{
 		width: 500px;
 		height: 200px;
