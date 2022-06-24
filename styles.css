@@ -566,13 +566,14 @@ article ul {
 		display: flex;
 		flex-direction: row;
 }
-.consejos{
+.consejos,.consejos2{
 		font-size: 1.25em;
+}
+.consejos{
 		width: 190px;
 		text-align: right;
 }
 .consejos2 {
-		font-size: 1.25em;
 		width: 157px;
 		text-align: left;
 }
