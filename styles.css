@@ -624,6 +624,7 @@ label img {
 	width: 240px;
 }
 	.menuhamburguesa, #menuhamburguesa{display: none}
+.fraseresponsive{display: none}
 
 @media screen and (max-width: 600px) {
 	.navcompu{
@@ -761,6 +762,7 @@ label img {
 	}
 	li a {padding: 10px;
 	}
+	.fraseresponsive{display: block}
 }
 
 
