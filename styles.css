@@ -4,8 +4,10 @@ nav{	height: 70px;
 		width:100%;
 		padding-top:16px;
 		justify-content: space-between;
-		position: relative;
 		z-index:10; 
+}
+nav,.ubicacion,.contactate2,.position3,.imagen1,.h2alt,.texto,.subqev,.frases,#mancha,#mancha img,.position,.position2,#container{
+		position: relative;
 }
 
 nav a:hover,article h2{
@@ -16,7 +18,7 @@ nav a:hover,article h2{
 		margin-left: 32px;
 }
 
-h2,h3,p,li,article ul,.botonfixed{
+h2,h3,p,li,article ul,.botonfixed,.collapsible-content .content-inner,input,textarea,.label-desplegable{
 		font-family: montserrat;
 }
 a, .contactate,footer,.ong,.consejos,.consejos2 {
@@ -51,15 +53,17 @@ nav,.formulario,.botonfixed,.imgtipos,.imgtipos2,.imgtipos3,.imgtipos4,.imgtipos
 		flex-direction: column;
 		justify-content: center;
 }
-.card, nav,.formulario,form,.form,.ayuda,.leer,.botonfixed,.cards,.footer,.terminos,.footer2,.card2,.info2,section,.desplegable,.flexcontainer,.sectionqev,.sectionqev2 {
+.card, nav,.formulario,form,.form,.ayuda,.leer,.botonfixed,.cards,.footer,.terminos,.footer2,.card2,.info2,section,.desplegable,.flexcontainer,.sectionqev,.sectionqev2,.leerbox,#centrosayuda{
 		display: flex;
 }
 .card,.ong,.contactate,.title,.title2,.card2,.info2,article h2,article ul,.subqev,.a,.b,.c,.sectionqev2{
 		text-align: center;
 }
+.card,form,.form,.botonfixed,.leerbox,.card2,section,.par1,.par2,.par3,.flexend1,.flexend2,.flexend3{
+		align-items: center;
+}
 
 .ubicacion{
-		position: relative;
 		bottom: 38px;
 }
 
@@ -87,7 +91,6 @@ body {
 .card {
 		height: 336px;
 		width: 368px; 
-		align-items: center;
 		margin: 16px 16px 80px 16px;
 }
 .formulario{
@@ -100,14 +103,12 @@ body {
 
 form{
 	flex-direction: column;
-	align-items: center;
 	width: 80%;
 }
 .form{	
 		margin-top: 80px;
 		margin-bottom: 80px;
 		padding-top:32px;
-		align-items: center;
 		height: 800px;
 		width: 640px; 
 		border-radius: 64px;
@@ -122,15 +123,12 @@ input{
 		border: none;
 		padding-left: 32px;
 		border-radius: 48px;
-		font-family: Montserrat;
 }
 
 textarea {
-	font-family: Montserrat !important;
-    font-weight: 500;
-    color: #232323 !important;
+		font-weight: 500;
+		color: #232323 !important;
 }
-
 
 .formulario input{
 	width: 100%;
@@ -158,7 +156,6 @@ textarea {
 		font-weight: 600;
 		width: 190px;
 		height: 63px;
-		align-items: center;
 		padding-left: 48px;
 		border-radius: 368px;
 		border-color: #C6A000;
@@ -175,7 +172,6 @@ textarea {
 		font-weight: 500;
 }
 .contactate2{
-		position: relative;
 		bottom: 17px;
 }
 
@@ -183,12 +179,9 @@ textarea {
 		width: 160px;
 		height: 48px;
 		border-radius: 80px;
-		display:flex;
 		justify-content: center;
-		align-items: center;
 }
 .position3{
-		position: relative;
 		top:14px; 
 }
 
@@ -215,7 +208,6 @@ textarea {
 
 .imagen1{
 		right: 0px;
-		position: relative;
 		z-index: 0;
 		left: 1126px;
 		bottom: -5px;
@@ -255,7 +247,6 @@ footer{
 		height: 288px;
 		width: 240px;
 		border-radius: 45px;
-		align-items: center;
 		margin: 16px;
 		margin-bottom: 16px;
 
@@ -273,7 +264,6 @@ footer{
 
 section{
 		flex-direction: column;
-		align-items: center;
 }
 
 .espacio{
@@ -356,15 +346,12 @@ article ul {
 		margin-left: 15em;
 }
 .h2alt{
-		position: relative;
 		top: 33px;
 }
 .texto{
-		position: relative;
 		top:38px;
 }
 .frases {
-		position: relative;
 		bottom: 160px;
 		left:367px;
 		top:0px;
@@ -373,7 +360,6 @@ article ul {
 .subqev {
 		font-size: 40px;
 		margin: 140px 0px 70px;
-		position: relative;
 		left: 323px;
 		padding-top: 60px;
 		width: 53%;
@@ -428,35 +414,29 @@ article ul {
 
 .par1 {
 		display: flex;
-		align-items: center;
 		margin: 0px auto;
 }
 .par2{
 		display: flex;
-		align-items: center;
 		width: 1200px;
 		margin: 0px auto;
 }
 .par3 {
 		display: flex;
-		align-items: center;
 		width: 1300px;
 		margin-top: 20px;
 		margin-bottom: 40%;
 }
 .flexend1{
 		display: flex;
-		align-items: center;
 		margin-left: 100px;
 }
 .flexend2 {
 		display: flex;
-		align-items: center;
 		margin-left:500px;
 }
 .flexend3 {
 		display: flex;
-		align-items: center;
 		margin-left: 600px;
 }
 #imagengrande{
@@ -475,13 +455,11 @@ article ul {
 	animation-direction: normal;
 	animation-timing-function: linear;
 	background-repeat: no-repeat !important;
-	position: relative;
 	bottom: 195px;
 	z-index:1;
 }
 
 #mancha img{
-	position: relative;
 	top: 93px !important;
 	left: 136px !important;
 }
@@ -526,7 +504,6 @@ article ul {
 	margin-right: 16px;
 	display: block;
 	font-weight: 700;
-	font-family: montserrat;
 	font-size: 1.5 em;
 	text-align: center;
 	justify-content: center;
@@ -542,15 +519,14 @@ article ul {
 /*estilo contenido desplegable*/
 .collapsible-content .content-inner {
 	color: #FEEB15;
- 	background: #8B368C;
-	font-family: montserrat;
+	background: #8B368C;
 	font-size: 0.8rem;
- 	border-bottom: 1px solid rgba(250, 224, 66, .45);
+	border-bottom: 1px solid rgba(250, 224, 66, .45);
 	width: 209px;
- 	border-bottom-left-radius: 45px;
- 	border-bottom-right-radius: 45px;
+	border-bottom-left-radius: 45px;
+	border-bottom-right-radius: 45px;
 	text-align:center;
-  	padding: .5rem 1rem;
+	padding: .5rem 1rem;
 	padding-bottom: 2em;
 	
 }
@@ -605,26 +581,23 @@ label img {
 	height:35px;
 }
 #centrosayuda{
-	display:flex;
 	flex-direction:column;
 	align-items:center;
 }
 .position{
-		position: relative;
 		top: 10px;
 }
 .position2{
-		position: relative;
 		top: 10px;
 }
 /*overlay pedir ayuda*/
 /* contenedor */
 #container {
-  position: relative;
-  width: 100%;
-  max-width: 150px;
-  margin: auto;
+	width: 100%;
+	max-width: 150px;
+	margin: auto;
 }
+
 .pedirayuda{
 	display: none;
 }
@@ -653,7 +626,6 @@ label img {
 	display: block;
 	opacity: 100;
 }
-
 
 .wrap-collapsible{
 	width: 240px;
