@@ -626,7 +626,7 @@ label img {
 	.menuhamburguesa, #menuhamburguesa{display: none}
 
 @media screen and (max-width: 600px) {
-	#navcompu{
+	.navcompu{
 		display: none;
 	}
 
