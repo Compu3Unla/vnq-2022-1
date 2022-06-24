@@ -719,6 +719,7 @@ label img {
 		max-height: 0px;
 		overflow: hidden;
 		transition: max-height .05s ease-in-out;
+		border-radius: 23px;
 }
 .desplegable:checked + .label-menu + .content {
 		max-height: 100vh;
@@ -745,7 +746,9 @@ label img {
 		margin-right: auto;
 		margin-top:10px;
 	}
-	.menulogo{margin-left:10px;}
+	.menulogo{
+		margin-left:10px;
+	}
 	
 	.ong, .title, .title2 {
 	
